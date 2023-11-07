@@ -1,33 +1,1461 @@
-<!doctype html>
-<html lang=en>
-  <head>
-    <meta charset=utf-8>
-    <title>Cyclic: Hello World</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/main.css">
-    <link rel="icon" href="/favicon.ico" />
-  </head>
-  <body>
-    <div id="hello-wrapper">
-      <div id="particles-js"></div>
-      <div class="content position-absolute w-100 top-0 pt-5">
-        <div class="cta">
-          <div id="hello" class="typewriter pb-3">
-            Hello World!
-          </div>
-          <a class="btn btn-primary mb-5" href="//app.cyclic.sh/api/login">Sign in to Cyclic</a>
-        </div>
-        <div id="world">
-          <canvas id='rotatingGlobe' style='cursor: move;'></canvas>
-        </div>
-      </div>
-    </div>
-    <script type='text/javascript' src='//d3js.org/d3.v3.min.js'></script>
-    <script type='text/javascript' src='//d3js.org/topojson.v1.min.js'></script>
-    <script type='text/javascript' src='planetaryjs.min.js'></script>
-    <script src="//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script type='text/javascript' src='particles.js'></script>
-    <script type='text/javascript' src='globe.js'></script>
-  </body>
+
+<!DOCTYPE html>
+<html class="html" lang="id" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<script src="/cdn-cgi/apps/head/5RkJhOC_Q5wOvVGhWc1mfZqrwBk.js"></script><link rel="profile" href="https://gmpg.org/xfn/11">
+<link href="https://course-net.com/" hreflang="id" rel="alternate" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Course-Net | Accelerate Your IT Career</title>
+<meta name="description" content="Course-Net adalah lembaga pelatihan IT No.1 Jaminan Sampai Bisa &amp; Gratis Re-Coaching &amp; Memenangkan ECC Global Award 2019 di Atlanta" />
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+<link rel="canonical" href="https://course-net.com/" />
+<meta property="og:locale" content="id_ID" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Course-Net | Accelerate Your IT Career" />
+<meta property="og:description" content="Course-Net adalah lembaga pelatihan IT No.1 Jaminan Sampai Bisa &amp; Gratis Re-Coaching &amp; Memenangkan ECC Global Award 2019 di Atlanta" />
+<meta property="og:url" content="https://course-net.com/" />
+<meta property="og:site_name" content="Course-Net" />
+<meta property="og:updated_time" content="2023-11-02T23:13:45+07:00" />
+<meta property="og:image" content="https://course-net.com/wp-content/uploads/2020/04/slider-02-1024x640.jpg" />
+<meta property="og:image:secure_url" content="https://course-net.com/wp-content/uploads/2020/04/slider-02-1024x640.jpg" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="640" />
+<meta property="og:image:alt" content="Course-Net" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:video" content="https://www.youtube.com/embed/O4meL9RBh6U" />
+<meta property="video:duration" content="53" />
+<meta property="ya:ovs:upload_date" content="2023-09-18T21:49:20-07:00" />
+<meta property="ya:ovs:allow_embed" content="true" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Course-Net | Accelerate Your IT Career" />
+<meta name="twitter:description" content="Course-Net adalah lembaga pelatihan IT No.1 Jaminan Sampai Bisa &amp; Gratis Re-Coaching &amp; Memenangkan ECC Global Award 2019 di Atlanta" />
+<meta name="twitter:site" content="@coursenetid" />
+<meta name="twitter:creator" content="@coursenetid" />
+<meta name="twitter:image" content="https://course-net.com/wp-content/uploads/2020/04/slider-02-1024x640.jpg" />
+<meta name="twitter:label1" content="Ditulis oleh" />
+<meta name="twitter:data1" content="Course Net" />
+<meta name="twitter:label2" content="Waktunya membaca" />
+<meta name="twitter:data2" content="3 menit" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://course-net.com/#place","address":{"@type":"PostalAddress","streetAddress":"Ruko Bolsena Blok A/7","addressLocality":"Gading Serpong, Curug Sangereng, Kelapa Dua, Tangerang","addressRegion":"Banten","postalCode":"15810","addressCountry":"Indonesia"}},{"@type":["EducationalOrganization","Organization"],"@id":"https://course-net.com/#organization","name":"Course-Net | No.1 IT Practice Coaching","url":"https://course-net.com","sameAs":["https://www.facebook.com/CourseNetIndonesia/","https://twitter.com/coursenetid"],"email":"info@course-net.com","address":{"@type":"PostalAddress","streetAddress":"Ruko Bolsena Blok A/7","addressLocality":"Gading Serpong, Curug Sangereng, Kelapa Dua, Tangerang","addressRegion":"Banten","postalCode":"15810","addressCountry":"Indonesia"},"logo":{"@type":"ImageObject","@id":"https://course-net.com/#logo","url":"https://course-net.com/wp-content/uploads/2020/04/cropped-logo-white-410px.png","contentUrl":"https://course-net.com/wp-content/uploads/2020/04/cropped-logo-white-410px.png","caption":"Course-Net","inLanguage":"id","width":"410","height":"110"},"contactPoint":[{"@type":"ContactPoint","telephone":"+628111811110","contactType":"reservations"}],"location":{"@id":"https://course-net.com/#place"}},{"@type":"WebSite","@id":"https://course-net.com/#website","url":"https://course-net.com","name":"Course-Net","publisher":{"@id":"https://course-net.com/#organization"},"inLanguage":"id","potentialAction":{"@type":"SearchAction","target":"https://course-net.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://course-net.com/wp-content/uploads/2023/10/2.webp","url":"https://course-net.com/wp-content/uploads/2023/10/2.webp","width":"200","height":"200","inLanguage":"id"},{"@type":"WebPage","@id":"https://course-net.com/#webpage","url":"https://course-net.com/","name":"Course-Net | Accelerate Your IT Career","datePublished":"2023-10-18T15:10:08+07:00","dateModified":"2023-11-02T23:13:45+07:00","about":{"@id":"https://course-net.com/#organization"},"isPartOf":{"@id":"https://course-net.com/#website"},"primaryImageOfPage":{"@id":"https://course-net.com/wp-content/uploads/2023/10/2.webp"},"inLanguage":"id"},{"@type":"VideoObject","name":"Things You Need to Know About Course-Net!","description":"Kalau kamu cari &quot;Best Practical IT Coaching in Southeast Asia&quot; yang bisa kasih jaminan belajar sampai bisa, bimbingan dari Coach praktisi hebat, dan materi y...","uploadDate":"2023-09-18T21:49:20-07:00","embedUrl":"https://www.youtube.com/embed/O4meL9RBh6U","duration":"PT0M53S","width":"1280","height":"720","isFamilyFriendly":"True","@id":"https://course-net.com/#schema-281484","isPartOf":{"@id":"https://course-net.com/#webpage"},"publisher":{"@id":"https://course-net.com/#organization"},"inLanguage":"id","mainEntityOfPage":{"@id":"https://course-net.com/#webpage"}}]}</script>
+<meta name="google-site-verification" content="IgiEnsWRjraxSgKU1bqrBxPnIHIWXaDtLSbJ9lxtVUA" />
+<meta name="msvalidate.01" content="7F417D4399AB36DFEA2C1E8CB42882D6" />
+<meta name="yandex-verification" content="f5f65b723b8d80f5" />
+
+<link rel="dns-prefetch" href="//course-net.com" />
+<link rel="alternate" type="application/rss+xml" title="Course-Net &raquo; Feed" href="https://course-net.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Course-Net &raquo; Umpan Komentar" href="https://course-net.com/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/course-net.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://course-net.com/wp-includes/css/dist/block-library/style.min.css?ver=6.3.2" media="all" />
+<style id="wp-block-library-theme-inline-css">
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="learndash_quiz_front_css-css" href="//course-net.com/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_quiz_front.min.css?ver=4.3.1.3" media="all" />
+<link rel="stylesheet" id="jquery-dropdown-css-css" href="//course-net.com/wp-content/plugins/sfwd-lms/assets/css/jquery.dropdown.min.css?ver=4.3.1.3" media="all" />
+<link rel="stylesheet" id="learndash_lesson_video-css" href="//course-net.com/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_lesson_video.min.css?ver=4.3.1.3" media="all" />
+<link rel="stylesheet" id="ld_cvss-social-buttons-css" href="https://course-net.com/wp-content/plugins/learndash-certificate-verify-and-share/assets/css/social-buttons.css?ver=1.1.3" media="all" />
+<link rel="stylesheet" id="oceanwp-learndash-css" href="https://course-net.com/wp-content/themes/oceanwp/assets/css/learndash/learndash.min.css?ver=6.3.2" media="all" />
+<link rel="stylesheet" id="font-awesome-css" href="https://course-net.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=5.15.1" media="all" />
+<link rel="stylesheet" id="simple-line-icons-css" href="https://course-net.com/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0" media="all" />
+<link rel="stylesheet" id="oceanwp-style-css" href="https://course-net.com/wp-content/themes/oceanwp/assets/css/style.min.css?ver=3.4.7" media="all" />
+<link rel="stylesheet" id="oceanwp-hamburgers-css" href="https://course-net.com/wp-content/themes/oceanwp/assets/css/third/hamburgers/hamburgers.min.css?ver=3.4.7" media="all" />
+<link rel="stylesheet" id="oceanwp-boring-css" href="https://course-net.com/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/boring.css?ver=3.4.7" media="all" />
+<link rel="stylesheet" id="oceanwp-google-font-montserrat-css" href="https://course-net.com/wp-content/uploads/oceanwp-webfonts-css/aa4cd108caefe67bed556707fc45a33f.css?ver=6.3.2" media="all" />
+<link rel="stylesheet" id="learndash-front-css" href="//course-net.com/wp-content/plugins/sfwd-lms/themes/ld30/assets/css/learndash.min.css?ver=4.3.1.3" media="all" />
+<link rel="stylesheet" id="elementor-icons-css" href="https://course-net.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.23.0" media="all" />
+<link rel="stylesheet" id="elementor-frontend-css" href="https://course-net.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.17.2" media="all" />
+<link rel="stylesheet" id="swiper-css" href="https://course-net.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6" media="all" />
+<link rel="stylesheet" id="elementor-post-13812-css" href="https://course-net.com/wp-content/uploads/elementor/css/post-13812.css?ver=1698243849" media="all" />
+<link rel="stylesheet" id="elementor-pro-css" href="https://course-net.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.17.0" media="all" />
+<link rel="stylesheet" id="elementor-global-css" href="https://course-net.com/wp-content/uploads/elementor/css/global.css?ver=1698243849" media="all" />
+<link rel="stylesheet" id="elementor-post-33669-css" href="https://course-net.com/wp-content/uploads/elementor/css/post-33669.css?ver=1698941646" media="all" />
+<link rel="stylesheet" id="elementor-post-11719-css" href="https://course-net.com/wp-content/uploads/elementor/css/post-11719.css?ver=1698243849" media="all" />
+<link rel="stylesheet" id="elementor-post-1001-css" href="https://course-net.com/wp-content/uploads/elementor/css/post-1001.css?ver=1698243850" media="all" />
+<link rel="stylesheet" id="eael-general-css" href="https://course-net.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.8.13" media="all" />
+<link rel="stylesheet" id="oe-widgets-style-css" href="https://course-net.com/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=6.3.2" media="all" />
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.3.2" media="all" />
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://course-net.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all" />
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://course-net.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all" />
+<link rel="stylesheet" id="elementor-icons-fa-regular-css" href="https://course-net.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3" media="all" />
+<link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://course-net.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" media="all" />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="https://course-net.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js"></script>
+<script src="https://course-net.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://course-net.com/wp-json/" /><link rel="alternate" type="application/json" href="https://course-net.com/wp-json/wp/v2/pages/33669" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://course-net.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.2" />
+<link rel="shortlink" href="https://course-net.com/" />
+<link rel="alternate" type="application/json+oembed" href="https://course-net.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcourse-net.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://course-net.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcourse-net.com%2F&#038;format=xml" />
+
+
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '486836148680775');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=486836148680775&ev=PageView&noscript=1"
+/></noscript>
+
+
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WJ8TXZM');</script>
+
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3573521,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "j4lt57f4qr");
+</script>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-940100652"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-940100652');
+</script>
+
+
+
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-940100652/-RjXCJyp4NkBEKyYo8AD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VSCSBGXDXS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VSCSBGXDXS');
+</script>
+
+
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+
+  ttq.load('CJFHK6BC77UDVQ8INSP0');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+
+<script type="text/javascript">
+				(function(c,l,a,r,i,t,y){
+					c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;
+					t.src="https://www.clarity.ms/tag/"+i+"?ref=wordpress";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+				})(window, document, "clarity", "script", "j4lt57f4qr");
+		</script>
+<meta name="generator" content="Elementor 3.17.2; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<link rel="icon" href="https://course-net.com/wp-content/uploads/2023/03/cropped-Course-Net-Logo-Final-Ai-CS6...-03-1-scaled-e1678419038237-32x32.webp" sizes="32x32" />
+<link rel="icon" href="https://course-net.com/wp-content/uploads/2023/03/cropped-Course-Net-Logo-Final-Ai-CS6...-03-1-scaled-e1678419038237-192x192.webp" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://course-net.com/wp-content/uploads/2023/03/cropped-Course-Net-Logo-Final-Ai-CS6...-03-1-scaled-e1678419038237-180x180.webp" />
+<meta name="msapplication-TileImage" content="https://course-net.com/wp-content/uploads/2023/03/cropped-Course-Net-Logo-Final-Ai-CS6...-03-1-scaled-e1678419038237-270x270.webp" />
+
+<style type="text/css">
+/* General CSS */.learndash a:hover,#learndash_lessons a:hover,#learndash_quizzes a:hover,.expand_collapse a:hover,.learndash_topic_dots a:hover,.learndash_topic_dots a:hover >span,#learndash_lesson_topics_list span a:hover,.learndash .completed:before,.learndash .notcompleted:before,#learndash_profile .completed:before,#learndash_profile .notcompleted:before,a:hover,a.light:hover,.theme-heading .text::before,.theme-heading .text::after,#top-bar-content >a:hover,#top-bar-social li.oceanwp-email a:hover,#site-navigation-wrap .dropdown-menu >li >a:hover,#site-header.medium-header #medium-searchform button:hover,.oceanwp-mobile-menu-icon a:hover,.blog-entry.post .blog-entry-header .entry-title a:hover,.blog-entry.post .blog-entry-readmore a:hover,.blog-entry.thumbnail-entry .blog-entry-category a,ul.meta li a:hover,.dropcap,.single nav.post-navigation .nav-links .title,body .related-post-title a:hover,body #wp-calendar caption,body .contact-info-widget.default i,body .contact-info-widget.big-icons i,body .custom-links-widget .oceanwp-custom-links li a:hover,body .custom-links-widget .oceanwp-custom-links li a:hover:before,body .posts-thumbnails-widget li a:hover,body .social-widget li.oceanwp-email a:hover,.comment-author .comment-meta .comment-reply-link,#respond #cancel-comment-reply-link:hover,#footer-widgets .footer-box a:hover,#footer-bottom a:hover,#footer-bottom #footer-bottom-menu a:hover,.sidr a:hover,.sidr-class-dropdown-toggle:hover,.sidr-class-menu-item-has-children.active >a,.sidr-class-menu-item-has-children.active >a >.sidr-class-dropdown-toggle,input[type=checkbox]:checked:before{color:#fc0926}.single nav.post-navigation .nav-links .title .owp-icon use,.blog-entry.post .blog-entry-readmore a:hover .owp-icon use,body .contact-info-widget.default .owp-icon use,body .contact-info-widget.big-icons .owp-icon use{stroke:#fc0926}.learndash-button-action,#learndash_lessons #lesson_heading,#learndash_profile .learndash_profile_heading,#learndash_quizzes #quiz_heading,#learndash_lesson_topics_list div>strong,dd.course_progress div.course_progress_blue,body #ld_course_list .btn,input[type="button"],input[type="reset"],input[type="submit"],button[type="submit"],.button,#site-navigation-wrap .dropdown-menu >li.btn >a >span,.thumbnail:hover i,.post-quote-content,.omw-modal .omw-close-modal,body .contact-info-widget.big-icons li:hover i,body div.wpforms-container-full .wpforms-form input[type=submit],body div.wpforms-container-full .wpforms-form button[type=submit],body div.wpforms-container-full .wpforms-form .wpforms-page-button{background-color:#fc0926}.thumbnail:hover .link-post-svg-icon{background-color:#fc0926}body .contact-info-widget.big-icons li:hover .owp-icon{background-color:#fc0926}.learndash-instructor-info .learndash-instructors .learndash-author{border-top-color:#fc0926}.learndash-notification{border-top-color:#fc0926}.learndash-instructor-info .learndash-instructors .learndash-author .avatar{border-color:#fc0926}.widget-title{border-color:#fc0926}blockquote{border-color:#fc0926}#searchform-dropdown{border-color:#fc0926}.dropdown-menu .sub-menu{border-color:#fc0926}.blog-entry.large-entry .blog-entry-readmore a:hover{border-color:#fc0926}.oceanwp-newsletter-form-wrap input[type="email"]:focus{border-color:#fc0926}.social-widget li.oceanwp-email a:hover{border-color:#fc0926}#respond #cancel-comment-reply-link:hover{border-color:#fc0926}body .contact-info-widget.big-icons li:hover i{border-color:#fc0926}#footer-widgets .oceanwp-newsletter-form-wrap input[type="email"]:focus{border-color:#fc0926}blockquote,.wp-block-quote{border-left-color:#fc0926}body .contact-info-widget.big-icons li:hover .owp-icon{border-color:#fc0926}.learndash-button-action:hover,body #ld_course_list .btn:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,button[type="submit"]:hover,input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,button[type="submit"]:focus,.button:hover,.button:focus,#site-navigation-wrap .dropdown-menu >li.btn >a:hover >span,.post-quote-author,.omw-modal .omw-close-modal:hover,body div.wpforms-container-full .wpforms-form input[type=submit]:hover,body div.wpforms-container-full .wpforms-form button[type=submit]:hover,body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover{background-color:#bf041a}a{color:#707070}a .owp-icon use{stroke:#707070}a:hover{color:#fc0926}a:hover .owp-icon use{stroke:#fc0926}#scroll-top{bottom:40px}#scroll-top{border-radius:100px}.theme-button,input[type="submit"],button[type="submit"],button,.button,body div.wpforms-container-full .wpforms-form input[type=submit],body div.wpforms-container-full .wpforms-form button[type=submit],body div.wpforms-container-full .wpforms-form .wpforms-page-button{border-radius:10px}body .theme-button,body input[type="submit"],body button[type="submit"],body button,body .button,body div.wpforms-container-full .wpforms-form input[type=submit],body div.wpforms-container-full .wpforms-form button[type=submit],body div.wpforms-container-full .wpforms-form .wpforms-page-button{background-color:#fc0926}body .theme-button:hover,body input[type="submit"]:hover,body button[type="submit"]:hover,body button:hover,body .button:hover,body div.wpforms-container-full .wpforms-form input[type=submit]:hover,body div.wpforms-container-full .wpforms-form input[type=submit]:active,body div.wpforms-container-full .wpforms-form button[type=submit]:hover,body div.wpforms-container-full .wpforms-form button[type=submit]:active,body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover,body div.wpforms-container-full .wpforms-form .wpforms-page-button:active{background-color:#bf041a}/* Header CSS */#site-logo #site-logo-inner,.oceanwp-social-menu .social-menu-inner,#site-header.full_screen-header .menu-bar-inner,.after-header-content .after-header-content-inner{height:80px}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,.mobile-menu-close,.after-header-content-inner >a{line-height:80px}#site-header,.has-transparent-header .is-sticky #site-header,.has-vh-transparent .is-sticky #site-header.vertical-header,#searchform-header-replace{background-color:#252525}#site-header{border-color:rgba(241,241,241,0)}#site-header-inner{padding:0 20px 0 20px}#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}#site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:160px}.effect-one #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-three #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-five #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-five #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-nine #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-nine #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after{background-color:#fc0926}.effect-four #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-four #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li >a.menu-link:hover >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li.sfHover >a.menu-link >span:after{color:#fc0926}.effect-seven #site-navigation-wrap .dropdown-menu >li >a.menu-link:hover >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li.sfHover >a.menu-link >span:after{text-shadow:10px 0 #fc0926,-10px 0 #fc0926}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,#searchform-header-replace-close{color:#ffffff}#site-navigation-wrap .dropdown-menu >li >a .owp-icon use,.oceanwp-mobile-menu-icon a .owp-icon use,#searchform-header-replace-close .owp-icon use{stroke:#ffffff}#site-navigation-wrap .dropdown-menu >li >a:hover,.oceanwp-mobile-menu-icon a:hover,#searchform-header-replace-close:hover{color:#ffffff}#site-navigation-wrap .dropdown-menu >li >a:hover .owp-icon use,.oceanwp-mobile-menu-icon a:hover .owp-icon use,#searchform-header-replace-close:hover .owp-icon use{stroke:#ffffff}#site-navigation-wrap .dropdown-menu >.current-menu-item >a,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a,#site-navigation-wrap .dropdown-menu >.current-menu-item >a:hover,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a:hover{color:#ffffff}.dropdown-menu .sub-menu{min-width:220px}.dropdown-menu .sub-menu,#searchform-dropdown,.current-shop-items-dropdown{background-color:#1e1e1e}.dropdown-menu .sub-menu,#searchform-dropdown,.current-shop-items-dropdown{border-color:#666666}.dropdown-menu ul li.menu-item,.navigation >ul >li >ul.megamenu.sub-menu >li,.navigation .megamenu li ul.sub-menu{border-color:#2d2d2d}.dropdown-menu ul li a.menu-link:hover{color:#606060}.dropdown-menu ul li a.menu-link:hover .owp-icon use{stroke:#606060}.dropdown-menu ul li a.menu-link:hover{background-color:#212121}.mobile-menu .hamburger-inner,.mobile-menu .hamburger-inner::before,.mobile-menu .hamburger-inner::after{background-color:#ffffff}a.sidr-class-toggle-sidr-close{background-color:#1e1e1e}#sidr,#mobile-dropdown{background-color:#252525}#sidr li,#sidr ul,#mobile-dropdown ul li,#mobile-dropdown ul li ul{border-color:#383838}body .sidr a,body .sidr-class-dropdown-toggle,#mobile-dropdown ul li a,#mobile-dropdown ul li a .dropdown-toggle,#mobile-fullscreen ul li a,#mobile-fullscreen .oceanwp-social-menu.simple-social ul li a{color:#ffffff}#mobile-fullscreen a.close .close-icon-inner,#mobile-fullscreen a.close .close-icon-inner::after{background-color:#ffffff}body .sidr a:hover,body .sidr-class-dropdown-toggle:hover,body .sidr-class-dropdown-toggle .fa,body .sidr-class-menu-item-has-children.active >a,body .sidr-class-menu-item-has-children.active >a >.sidr-class-dropdown-toggle,#mobile-dropdown ul li a:hover,#mobile-dropdown ul li a .dropdown-toggle:hover,#mobile-dropdown .menu-item-has-children.active >a,#mobile-dropdown .menu-item-has-children.active >a >.dropdown-toggle,#mobile-fullscreen ul li a:hover,#mobile-fullscreen .oceanwp-social-menu.simple-social ul li a:hover{color:#fc0926}#mobile-fullscreen a.close:hover .close-icon-inner,#mobile-fullscreen a.close:hover .close-icon-inner::after{background-color:#fc0926}body .sidr-class-mobile-searchform input,#mobile-dropdown #mobile-menu-search form input,#mobile-fullscreen #mobile-search input{border-color:#555555}/* Footer Widgets CSS */#footer-widgets .footer-box a:hover,#footer-widgets a:hover{color:#fc0926}/* Footer Bottom CSS */#footer-bottom{padding:25px 0 25px 0}#footer-bottom a:hover,#footer-bottom #footer-bottom-menu a:hover{color:#fc0926}/* Typography CSS */body{font-family:Montserrat;font-weight:500;font-style:normal;font-size:15px;color:#595959}h1,h2,h3,h4,h5,h6,.theme-heading,.widget-title,.oceanwp-widget-recent-posts-title,.comment-reply-title,.entry-title,.sidebar-box .widget-title{font-family:Montserrat;font-weight:900}#site-navigation-wrap .dropdown-menu >li >a,#site-header.full_screen-header .fs-dropdown-menu >li >a,#site-header.top-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.center-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.medium-header #site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a{font-family:Muli;font-weight:400;font-size:14px}#footer-bottom #copyright{font-family:Muli;font-weight:400;font-size:14px}@media (max-width:480px){#footer-bottom #copyright{line-height:1.5}}
+</style></head>
+<body class="home page-template page-template-elementor_header_footer page page-id-33669 wp-custom-logo wp-embed-responsive oceanwp-theme sidebar-mobile default-breakpoint has-sidebar content-right-sidebar page-header-disabled has-breadcrumbs elementor-default elementor-template-full-width elementor-kit-13812 elementor-page elementor-page-33669" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<div id="outer-wrap" class="site clr">
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+<div id="wrap" class="clr">
+<header id="site-header" class="effect-one clr" data-height="80" itemscope="itemscope" itemtype="https://schema.org/WPHeader" role="banner">
+<div data-elementor-type="header" data-elementor-id="11719" class="elementor elementor-11719 elementor-location-header" data-elementor-post-type="elementor_library">
+<header class="elementor-section elementor-top-section elementor-element elementor-element-5f1256c3 elementor-section-content-middle elementor-section-full_width animated-fast elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="5f1256c3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_effects_offset&quot;:10,&quot;animation&quot;:&quot;fadeInDown&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-554310c9" data-id="554310c9" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-342e90b4 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="342e90b4" data-element_type="widget" data-widget_type="theme-site-logo.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.17.0 - 01-11-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style> <a href="https://course-net.com">
+<script type="text/javascript" style="display:none">
+//<![CDATA[
+window.__mirage2 = {petok:"8g8KIraurKd2fvjaqTul0F2pm1tdVgNYSSBJh4zW4N8-1800-0"};
+//]]>
+</script>
+<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
+<img width="3599" height="1052" data-cfsrc="https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866.png" class="attachment-full size-full wp-image-30632" alt="course-net" srcset="https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866.png 3599w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-300x88.png 300w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-1024x299.png 1024w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-768x224.png 768w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-1536x449.png 1536w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-2048x599.png 2048w" sizes="(max-width: 3599px) 100vw, 3599px" style="display:none;visibility:hidden;" /><noscript><img width="3599" height="1052" src="https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866.png" class="attachment-full size-full wp-image-30632" alt="course-net" srcset="https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866.png 3599w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-300x88.png 300w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-1024x299.png 1024w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-768x224.png 768w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-1536x449.png 1536w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-2048x599.png 2048w" sizes="(max-width: 3599px) 100vw, 3599px" /></noscript> </a>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5a7c9a4" data-id="5a7c9a4" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-3b223c23 elementor-nav-menu__align-right elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="3b223c23" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-chevron-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+<div class="elementor-widget-container">
+<link rel="stylesheet" href="https://course-net.com/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css"> <nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-text e--animation-float">
+<ul id="menu-1-3b223c23" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11512"><a href="https://course-net.com/course/" class="elementor-item">Coaching Program</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14335"><a href="https://course-net.com/course/kursus-jaringan-komputer/" class="elementor-sub-item">Kursus Jaringan Komputer</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14336"><a href="https://course-net.com/course/kursus-ccna/" class="elementor-sub-item">Kursus CCNA</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14338"><a href="https://course-net.com/course/kursus-cyber-security/" class="elementor-sub-item">Kursus Cyber Security</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14339"><a href="https://course-net.com/course/kursus-hacker/" class="elementor-sub-item">Kursus Hacker (CEH)</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14340"><a href="https://course-net.com/course/kursus-chfi/" class="elementor-sub-item">Kursus CHFI</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22280"><a href="https://course-net.com/course/kursus-cpent/" class="elementor-sub-item">Kursus CPENT</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14342"><a href="https://course-net.com/course/kursus-website/" class="elementor-sub-item">Kursus Website</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14343"><a href="https://course-net.com/course/kursus-web-design/" class="elementor-sub-item">Kursus Web Design</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14344"><a href="https://course-net.com/course/kursus-laravel/" class="elementor-sub-item">Kursus Laravel</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16646"><a href="https://course-net.com/course/kursus-golang/" class="elementor-sub-item">Kursus Golang</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14345"><a href="https://course-net.com/course/kursus-java-spring/" class="elementor-sub-item">Kursus Java Spring</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14479"><a href="https://course-net.com/course/kursus-fullstack-javascript/" class="elementor-sub-item">Kursus Javascript Fullstack</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14346"><a href="https://course-net.com/course/kursus-mobile-application/" class="elementor-sub-item">Kursus Mobile Application</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14349"><a href="https://course-net.com/course/kursus-flutter/" class="elementor-sub-item">Kursus Flutter</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14351"><a href="https://course-net.com/course/kursus-data-science/" class="elementor-sub-item">Kursus Data Science</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21071"><a href="https://course-net.com/course/kursus-digital-marketing/" class="elementor-sub-item">Kursus Digital Marketing</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29607"><a href="https://course-net.com/course/kursus-ui-ux/" class="elementor-sub-item">Kursus UI/UX</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33867"><a href="https://course-net.com/schedule/" class="elementor-item">Schedule</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16537"><a href="https://course-net.com/itversity/" class="elementor-item">Bimbel Kuliah IT</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20980"><a href="https://course-net.com/corporate/" class="elementor-item">Corporate</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20912"><a href="https://course-net.com/corporate-training-page/" class="elementor-sub-item">Corporate Training</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-24891"><a href="https://course-net.com/" aria-current="page" class="elementor-item elementor-item-active">Lainnya</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28900"><a href="https://course-net.com/itbox/" class="elementor-sub-item">Course-Net x ITBOX</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26202"><a href="https://course-net.com/events/" class="elementor-sub-item">Events</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14332"><a href="https://course-net.com/tentang-course-net/" class="elementor-sub-item">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14333"><a href="https://course-net.com/faq/" class="elementor-sub-item">FAQ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18248"><a href="https://course-net.com/our-alumni/" class="elementor-sub-item">Our Alumni</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30304"><a href="https://course-net.com/fordigi/" class="elementor-sub-item">Fordigi</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11513"><a href="https://course-net.com/blog/" class="elementor-item">Blog</a></li>
+</ul> </nav>
+<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i> <span class="elementor-screen-only">Menu</span>
+</div>
+<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+<ul id="menu-2-3b223c23" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11512"><a href="https://course-net.com/course/" class="elementor-item" tabindex="-1">Coaching Program</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14335"><a href="https://course-net.com/course/kursus-jaringan-komputer/" class="elementor-sub-item" tabindex="-1">Kursus Jaringan Komputer</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14336"><a href="https://course-net.com/course/kursus-ccna/" class="elementor-sub-item" tabindex="-1">Kursus CCNA</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14338"><a href="https://course-net.com/course/kursus-cyber-security/" class="elementor-sub-item" tabindex="-1">Kursus Cyber Security</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14339"><a href="https://course-net.com/course/kursus-hacker/" class="elementor-sub-item" tabindex="-1">Kursus Hacker (CEH)</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14340"><a href="https://course-net.com/course/kursus-chfi/" class="elementor-sub-item" tabindex="-1">Kursus CHFI</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22280"><a href="https://course-net.com/course/kursus-cpent/" class="elementor-sub-item" tabindex="-1">Kursus CPENT</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14342"><a href="https://course-net.com/course/kursus-website/" class="elementor-sub-item" tabindex="-1">Kursus Website</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14343"><a href="https://course-net.com/course/kursus-web-design/" class="elementor-sub-item" tabindex="-1">Kursus Web Design</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14344"><a href="https://course-net.com/course/kursus-laravel/" class="elementor-sub-item" tabindex="-1">Kursus Laravel</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16646"><a href="https://course-net.com/course/kursus-golang/" class="elementor-sub-item" tabindex="-1">Kursus Golang</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14345"><a href="https://course-net.com/course/kursus-java-spring/" class="elementor-sub-item" tabindex="-1">Kursus Java Spring</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14479"><a href="https://course-net.com/course/kursus-fullstack-javascript/" class="elementor-sub-item" tabindex="-1">Kursus Javascript Fullstack</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14346"><a href="https://course-net.com/course/kursus-mobile-application/" class="elementor-sub-item" tabindex="-1">Kursus Mobile Application</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14349"><a href="https://course-net.com/course/kursus-flutter/" class="elementor-sub-item" tabindex="-1">Kursus Flutter</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14351"><a href="https://course-net.com/course/kursus-data-science/" class="elementor-sub-item" tabindex="-1">Kursus Data Science</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21071"><a href="https://course-net.com/course/kursus-digital-marketing/" class="elementor-sub-item" tabindex="-1">Kursus Digital Marketing</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29607"><a href="https://course-net.com/course/kursus-ui-ux/" class="elementor-sub-item" tabindex="-1">Kursus UI/UX</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33867"><a href="https://course-net.com/schedule/" class="elementor-item" tabindex="-1">Schedule</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16537"><a href="https://course-net.com/itversity/" class="elementor-item" tabindex="-1">Bimbel Kuliah IT</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20980"><a href="https://course-net.com/corporate/" class="elementor-item" tabindex="-1">Corporate</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20912"><a href="https://course-net.com/corporate-training-page/" class="elementor-sub-item" tabindex="-1">Corporate Training</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-24891"><a href="https://course-net.com/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Lainnya</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28900"><a href="https://course-net.com/itbox/" class="elementor-sub-item" tabindex="-1">Course-Net x ITBOX</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26202"><a href="https://course-net.com/events/" class="elementor-sub-item" tabindex="-1">Events</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14332"><a href="https://course-net.com/tentang-course-net/" class="elementor-sub-item" tabindex="-1">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14333"><a href="https://course-net.com/faq/" class="elementor-sub-item" tabindex="-1">FAQ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18248"><a href="https://course-net.com/our-alumni/" class="elementor-sub-item" tabindex="-1">Our Alumni</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30304"><a href="https://course-net.com/fordigi/" class="elementor-sub-item" tabindex="-1">Fordigi</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11513"><a href="https://course-net.com/blog/" class="elementor-item" tabindex="-1">Blog</a></li>
+</ul> </nav>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-8b9c5da" data-id="8b9c5da" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-0cdb57a elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="0cdb57a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://prakerja.course-net.com/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-text">Kartu Prakerja</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-7949ce51 elementor-hidden-tablet elementor-hidden-phone" data-id="7949ce51" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-1489f992 elementor-search-form--skin-full_screen elementor-widget elementor-widget-search-form" data-id="1489f992" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;full_screen&quot;}" data-widget_type="search-form.default">
+<div class="elementor-widget-container">
+<link rel="stylesheet" href="https://course-net.com/wp-content/plugins/elementor-pro/assets/css/widget-theme-elements.min.css"> <form class="elementor-search-form" action="https://course-net.com" method="get" role="search">
+<div class="elementor-search-form__toggle" tabindex="0" role="button">
+<i aria-hidden="true" class="fas fa-search"></i> <span class="elementor-screen-only">Search</span>
+</div>
+<div class="elementor-search-form__container">
+<label class="elementor-screen-only" for="elementor-search-form-1489f992">Search</label>
+<input id="elementor-search-form-1489f992" placeholder="Search..." class="elementor-search-form__input" type="search" name="s" value>
+<div class="dialog-lightbox-close-button dialog-close-button" role="button" tabindex="0">
+<i aria-hidden="true" class="eicon-close"></i> <span class="elementor-screen-only">Close this search box.</span>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+</div>
+</header>
+<main id="main" class="site-main clr" role="main">
+<div data-elementor-type="wp-page" data-elementor-id="33669" class="elementor elementor-33669" data-elementor-post-type="page">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-f79dec2 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="f79dec2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-background-overlay"></div>
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2bc1b18" data-id="2bc1b18" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-09fae1a elementor-invisible elementor-widget elementor-widget-heading" data-id="09fae1a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.17.0 - 01-11-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h3 class="elementor-heading-title elementor-size-default"><a href="https://course-net.com/">#AccelerateYourITCareer</a></h3> </div>
+</div>
+<div class="elementor-element elementor-element-f5c5c9a elementor-invisible elementor-widget elementor-widget-heading" data-id="f5c5c9a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h1 class="elementor-heading-title elementor-size-default">Apakah Anda sudah
+<b>punya Specific Skill?</b></h1> </div>
+</div>
+<div class="elementor-element elementor-element-e7cb3c3 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="e7cb3c3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.17.0 - 01-11-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style> <p>Akselerasikan Karir Anda sekarang juga bersama <span style="text-decoration: underline;"><strong>coach kelas dunia</strong></span>. Buat diri Anda memiliki specialisasi yang jelas, menjadi seorang <em>web apps developer</em>, <em>mobile apps developer</em>, <em>data scientist</em>, <em>network specialist</em>, <em>cyber security specialist</em> atau <em>digital marketer</em>.</p> </div>
+</div>
+<div class="elementor-element elementor-element-1734900 elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="1734900" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;shake&quot;,&quot;_animation_delay&quot;:1000}" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://course-net.com/course/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon elementor-align-icon-right">
+<i aria-hidden="true" class="fas fa-angle-right"></i> </span>
+<span class="elementor-button-text">Browse All Courses</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-7a53911 elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="7a53911" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;shake&quot;,&quot;_animation_delay&quot;:100}" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://prakerja.course-net.com/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon elementor-align-icon-right">
+<i aria-hidden="true" class="fas fa-info-circle"></i> </span>
+<span class="elementor-button-text">INFO KHUSUS PENDAFTAR PRAKERJA</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-4d02465 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4d02465" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d55ad45" data-id="d55ad45" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-d14a03d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d14a03d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fa8a605" data-id="fa8a605" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-0a5329d elementor-widget elementor-widget-heading" data-id="0a5329d" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">Tahukah Anda ?</h3> </div>
+</div>
+<div class="elementor-element elementor-element-e77be02 elementor-widget elementor-widget-heading" data-id="e77be02" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default"><b span style="background-color:#FC0926;color:#fff">&nbsp75.000++&nbsp</b> ORANG SUDAH BEHASIL AKSELERASI KARIR IT, KAPAN GILIRAN ANDA ?</h3> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-878f21f" data-id="878f21f" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-72767af elementor-widget__width-initial elementor-widget elementor-widget-video" data-id="72767af" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/www.youtube.com\/watch?v=O4meL9RBh6U&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/course-net.com\/wp-content\/uploads\/2023\/11\/O4meL9RBh6Uhd-1.webp&quot;,&quot;id&quot;:33974,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;best practical it&quot;,&quot;source&quot;:&quot;library&quot;},&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.17.0 - 01-11-2023 */
+.elementor-widget-video .elementor-widget-container{overflow:hidden;transform:translateZ(0)}.elementor-widget-video .elementor-wrapper{aspect-ratio:var(--video-aspect-ratio)}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{height:100%;width:100%;display:flex;border:none;background-color:#000}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;right:0;bottom:0;left:0;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%;aspect-ratio:var(--video-aspect-ratio);-o-object-fit:cover;object-fit:cover;-o-object-position:center center;object-position:center center}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-custom-embed-image-overlay{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-custom-embed-image-overlay img{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}.e-con-inner>.elementor-widget-video,.e-con>.elementor-widget-video{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style> <div class="elementor-wrapper elementor-open-inline">
+<div class="elementor-video"></div> <div class="elementor-custom-embed-image-overlay" style="background-image: url(https://course-net.com/wp-content/uploads/2023/11/O4meL9RBh6Uhd-1.webp);">
+<div class="elementor-custom-embed-play" role="button" aria-label="Putar Video tentang best practical it" tabindex="0">
+<i aria-hidden="true" class="eicon-play"></i> <span class="elementor-screen-only">Putar Video tentang best practical it</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-835802c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="835802c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9c59d4e" data-id="9c59d4e" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-6b0a6de elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6b0a6de" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7ad52ed" data-id="7ad52ed" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-0a26b9e elementor-widget elementor-widget-image" data-id="0a26b9e" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img decoding="async" width="900" height="900" src="https://course-net.com/wp-content/uploads/2023/10/2.webp" class="attachment-large size-large wp-image-33681" alt="course-net" srcset="https://course-net.com/wp-content/uploads/2023/10/2.webp 900w, https://course-net.com/wp-content/uploads/2023/10/2-300x300.webp 300w, https://course-net.com/wp-content/uploads/2023/10/2-150x150.webp 150w, https://course-net.com/wp-content/uploads/2023/10/2-768x768.webp 768w, https://course-net.com/wp-content/uploads/2023/10/2-600x600.webp 600w" sizes="(max-width: 900px) 100vw, 900px" title="Home Course-Net | Course-Net"> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-60730eb" data-id="60730eb" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-d490047 elementor-widget elementor-widget-heading" data-id="d490047" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default"><span style="background-color:#FC0926;color:#fff;">&nbspBerhasil </span>&nbspRaih 3x <br> Penghargaan Internasional</h2> </div>
+</div>
+<div class="elementor-element elementor-element-623bfbf elementor-widget elementor-widget-heading" data-id="623bfbf" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">Course-Net menjadi satu-satunya tempat pelatihan IT di Indonesia Yang memenangkan penghargaan secara berturut-turut.</h3> </div>
+</div>
+<div class="elementor-element elementor-element-1387b68 elementor-widget elementor-widget-heading" data-id="1387b68" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default">Periode 2019 - 2021</h4> </div>
+</div>
+<div class="elementor-element elementor-element-783f18e elementor-widget elementor-widget-heading" data-id="783f18e" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">3 Penghargan Internasional tersebut<b style="font-size: 16px;"> ECC Global Award Atlanta USA</b><span style="font-size: 16px;">,tahun 2019, </span><b style="font-size: 16px;">The Most Impacftul IT Coaching</b><span style="font-size: 16px;"> 2020 dan </span><b style="font-size: 16px;">EC-Council ATC Circle of Excelllence </b><span style="font-size: 16px;">2021.&nbsp;</span><br></h3> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-527af4d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="527af4d" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-191f0d6" data-id="191f0d6" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-a3bcbfd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a3bcbfd" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-92ee365" data-id="92ee365" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-696aaeb elementor-widget elementor-widget-counter" data-id="696aaeb" data-element_type="widget" data-widget_type="counter.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.17.0 - 01-11-2023 */
+.elementor-counter .elementor-counter-number-wrapper{display:flex;font-size:69px;font-weight:600;line-height:1}.elementor-counter .elementor-counter-number-prefix,.elementor-counter .elementor-counter-number-suffix{flex-grow:1;white-space:pre-wrap}.elementor-counter .elementor-counter-number-prefix{text-align:right}.elementor-counter .elementor-counter-number-suffix{text-align:left}.elementor-counter .elementor-counter-title{text-align:center;font-size:19px;font-weight:400;line-height:2.5}</style> <div class="elementor-counter">
+<div class="elementor-counter-number-wrapper">
+<span class="elementor-counter-number-prefix"></span>
+<span class="elementor-counter-number" data-duration="2000" data-to-value="75000" data-from-value="0" data-delimiter=",">0</span>
+<span class="elementor-counter-number-suffix">++</span>
+</div>
+<div class="elementor-counter-title">Lulusan</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-86bd18f" data-id="86bd18f" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-96db80f elementor-widget elementor-widget-counter" data-id="96db80f" data-element_type="widget" data-widget_type="counter.default">
+<div class="elementor-widget-container">
+<div class="elementor-counter">
+<div class="elementor-counter-number-wrapper">
+<span class="elementor-counter-number-prefix"></span>
+<span class="elementor-counter-number" data-duration="2000" data-to-value="4.9" data-from-value="0" data-delimiter=",">0</span>
+<span class="elementor-counter-number-suffix">/5</span>
+</div>
+<div class="elementor-counter-title">Google Rating</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-9acd5b1 elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating" data-id="9acd5b1" data-element_type="widget" data-widget_type="star-rating.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.17.0 - 01-11-2023 */
+@charset "UTF-8";.elementor-star-rating{color:#ccd6df;font-family:eicons;display:inline-block}.elementor-star-rating i{display:inline-block;position:relative;font-style:normal;cursor:default}.elementor-star-rating i:before{content:"\e934";display:block;font-size:inherit;font-family:inherit;position:absolute;overflow:hidden;color:#f0ad4e;top:0;left:0}.elementor-star-rating .elementor-star-empty:before{content:none}.elementor-star-rating .elementor-star-1:before{width:10%}.elementor-star-rating .elementor-star-2:before{width:20%}.elementor-star-rating .elementor-star-3:before{width:30%}.elementor-star-rating .elementor-star-4:before{width:40%}.elementor-star-rating .elementor-star-5:before{width:50%}.elementor-star-rating .elementor-star-6:before{width:60%}.elementor-star-rating .elementor-star-7:before{width:70%}.elementor-star-rating .elementor-star-8:before{width:80%}.elementor-star-rating .elementor-star-9:before{width:90%}.elementor-star-rating__wrapper{display:flex;align-items:center}.elementor-star-rating__title{margin-right:10px}.elementor-star-rating--align-right .elementor-star-rating__wrapper{text-align:right;justify-content:flex-end}.elementor-star-rating--align-left .elementor-star-rating__wrapper{text-align:left;justify-content:flex-start}.elementor-star-rating--align-center .elementor-star-rating__wrapper{text-align:center;justify-content:center}.elementor-star-rating--align-justify .elementor-star-rating__title{margin-right:auto}@media (max-width:1024px){.elementor-star-rating-tablet--align-right .elementor-star-rating__wrapper{text-align:right;justify-content:flex-end}.elementor-star-rating-tablet--align-left .elementor-star-rating__wrapper{text-align:left;justify-content:flex-start}.elementor-star-rating-tablet--align-center .elementor-star-rating__wrapper{text-align:center;justify-content:center}.elementor-star-rating-tablet--align-justify .elementor-star-rating__title{margin-right:auto}}@media (max-width:767px){.elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper{text-align:right;justify-content:flex-end}.elementor-star-rating-mobile--align-left .elementor-star-rating__wrapper{text-align:left;justify-content:flex-start}.elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper{text-align:center;justify-content:center}.elementor-star-rating-mobile--align-justify .elementor-star-rating__title{margin-right:auto}}.last-star{letter-spacing:0}.elementor--star-style-star_unicode .elementor-star-rating{font-family:Arial,Helvetica,sans-serif}.elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before{content:"★"}</style>
+<div class="elementor-star-rating__wrapper">
+<div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating" itemscope itemprop="reviewRating"><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue" class="elementor-screen-only">5/5</span></div> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-36954e7" data-id="36954e7" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-8b41a24 elementor-widget elementor-widget-counter" data-id="8b41a24" data-element_type="widget" data-widget_type="counter.default">
+<div class="elementor-widget-container">
+<div class="elementor-counter">
+<div class="elementor-counter-number-wrapper">
+<span class="elementor-counter-number-prefix"></span>
+<span class="elementor-counter-number" data-duration="2000" data-to-value="469" data-from-value="0" data-delimiter=",">0</span>
+<span class="elementor-counter-number-suffix"></span>
+</div>
+<div class="elementor-counter-title">Corporate Client</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-cf6ec8e" data-id="cf6ec8e" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-e66b694 elementor-widget elementor-widget-counter" data-id="e66b694" data-element_type="widget" data-widget_type="counter.default">
+<div class="elementor-widget-container">
+<div class="elementor-counter">
+<div class="elementor-counter-number-wrapper">
+<span class="elementor-counter-number-prefix">Rp 7-</span>
+<span class="elementor-counter-number" data-duration="2000" data-to-value="15" data-from-value="0">0</span>
+<span class="elementor-counter-number-suffix"> Juta</span>
+</div>
+<div class="elementor-counter-title">Range Gaji Lulusan</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-e04364b elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e04364b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-no">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-60d14ce" data-id="60d14ce" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-3407716 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="3407716" data-element_type="widget" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.17.0 - 01-11-2023 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style> <div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-2783fae elementor-widget elementor-widget-heading" data-id="2783fae" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-xl">Mengapa Course-Net pasti menjadi pilihan terbaik bagi Anda?</h3> </div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-2916587 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="2916587" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+<div class="elementor-container elementor-column-gap-extended">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9d17ed2" data-id="9d17ed2" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-0c589d7 elementor-view-default elementor-widget elementor-widget-icon" data-id="0c589d7" data-element_type="widget" data-widget_type="icon.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-wrapper">
+<div class="elementor-icon">
+<i aria-hidden="true" class="fas fa-check-circle"></i> </div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-20c16d6 elementor-widget elementor-widget-heading" data-id="20c16d6" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">IT Coaching Bukan Training</h3> </div>
+</div>
+<div class="elementor-element elementor-element-f639f9b elementor-widget elementor-widget-text-editor" data-id="f639f9b" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Jelas berbeda dibandingkan tempat kursus pada umumnya yang lebih menjabarkan konsep dasar (<em>training</em>). Di Course-Net, Anda <strong>tidak hanya di training</strong> tapi juga di coaching, dimentoring, dan dibagikan hal yang sifatnya <em>best practice real</em> di dunia pekerjaan. <em>Sharing knowledge</em> dan <em>experience</em> menjadi hal yang utama selama coaching di Course-Net.</p> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4ad8af3" data-id="4ad8af3" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-7844698 elementor-view-default elementor-widget elementor-widget-icon" data-id="7844698" data-element_type="widget" data-widget_type="icon.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-wrapper">
+<div class="elementor-icon">
+<i aria-hidden="true" class="fas fa-check-circle"></i> </div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-90e9db4 elementor-widget elementor-widget-heading" data-id="90e9db4" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">1x Bayar Belajar Sampai Bisa</h3> </div>
+</div>
+<div class="elementor-element elementor-element-0d90b7c elementor-widget elementor-widget-text-editor" data-id="0d90b7c" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p><strong>Ragu karena tidak punya basic?</strong> Setiap dari Anda yang menjadi peserta akan dijamin belajar sampai bisa. Masih kurang paham dengan materinya? Anda tinggal ikut kelas ulang gratis (<strong>Free Re-Coaching</strong>).</p> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-3d994d4 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="3d994d4" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+<div class="elementor-container elementor-column-gap-no">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a375b52" data-id="a375b52" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-0cb4372 elementor-view-default elementor-widget elementor-widget-icon" data-id="0cb4372" data-element_type="widget" data-widget_type="icon.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-wrapper">
+<div class="elementor-icon">
+<i aria-hidden="true" class="fas fa-check-circle"></i> </div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-c16abcd elementor-widget elementor-widget-heading" data-id="c16abcd" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">Full Hands On Lab</h3> </div>
+</div>
+<div class="elementor-element elementor-element-daf81a2 elementor-widget elementor-widget-text-editor" data-id="daf81a2" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Anda akan <strong>langsung mempraktikkan</strong> apa yang di ajarkan. Dengan pendampingan <em>face to face</em> dari Coach, Anda jelas akan lebih mudah menerapkan apa yang diajarkan hingga pembuatan project sendiri.</p> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bb36f54" data-id="bb36f54" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-90f141e elementor-view-default elementor-widget elementor-widget-icon" data-id="90f141e" data-element_type="widget" data-widget_type="icon.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-wrapper">
+<div class="elementor-icon">
+<i aria-hidden="true" class="fas fa-check-circle"></i> </div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-1851906 elementor-widget elementor-widget-heading" data-id="1851906" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">3P Coach</h3> </div>
+</div>
+<div class="elementor-element elementor-element-a5797c5 elementor-widget elementor-widget-text-editor" data-id="a5797c5" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Kami sangat selektif memilih coach yang membimbing anda selama proses coaching. Hanya di Course-Net, Anda akan di bimbing langsung oleh coach kelas dunia dengan <strong>profile Praktisi</strong>, <strong>Punya Sertifikasi Internasional</strong> dan <strong>Prestasi hingga tingkat dunia</strong>.</p> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-4eeea5e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="4eeea5e" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-7adfdf2" data-id="7adfdf2" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-d4950fc elementor-widget elementor-widget-image" data-id="d4950fc" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img decoding="async" width="768" height="181" src="https://course-net.com/wp-content/uploads/2023/08/LOGO-TAGLINE-BARU-ACCELERATE-YOUR-IT-CAREER-01-2-scaled-e1692669459550-768x181.webp" class="attachment-medium_large size-medium_large wp-image-32016" alt="kursus cyber security" srcset="https://course-net.com/wp-content/uploads/2023/08/LOGO-TAGLINE-BARU-ACCELERATE-YOUR-IT-CAREER-01-2-scaled-e1692669459550-768x181.webp 768w, https://course-net.com/wp-content/uploads/2023/08/LOGO-TAGLINE-BARU-ACCELERATE-YOUR-IT-CAREER-01-2-scaled-e1692669459550-300x71.webp 300w, https://course-net.com/wp-content/uploads/2023/08/LOGO-TAGLINE-BARU-ACCELERATE-YOUR-IT-CAREER-01-2-scaled-e1692669459550-1024x241.webp 1024w, https://course-net.com/wp-content/uploads/2023/08/LOGO-TAGLINE-BARU-ACCELERATE-YOUR-IT-CAREER-01-2-scaled-e1692669459550-1536x362.webp 1536w, https://course-net.com/wp-content/uploads/2023/08/LOGO-TAGLINE-BARU-ACCELERATE-YOUR-IT-CAREER-01-2-scaled-e1692669459550.webp 1574w" sizes="(max-width: 768px) 100vw, 768px" title="Home Course-Net | Course-Net"> </div>
+</div>
+<div class="elementor-element elementor-element-fe1986a elementor-widget elementor-widget-heading" data-id="fe1986a" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<p class="elementor-heading-title elementor-size-default">Sistem belajar semi cowboy, menjamin anda mendapatkan pengalaman belajar yang fun dan praktis</p> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-0026798 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0026798" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8309a94" data-id="8309a94" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-49c7659 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="49c7659" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6a423f4" data-id="6a423f4" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-c9792dd elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="c9792dd" data-element_type="widget" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-9fc1187 elementor-widget elementor-widget-heading" data-id="9fc1187" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">Media Yang Telah Meliput Kami</h3> </div>
+</div>
+<div class="elementor-element elementor-element-8943f5b elementor-widget elementor-widget-image" data-id="8943f5b" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img decoding="async" loading="lazy" width="1000" height="265" src="https://course-net.com/wp-content/uploads/2023/09/BANNER-LIPUTAN-MEDIA-COLOR-e1695018178610.webp" class="attachment-full size-full wp-image-32831" alt="media liputan" srcset="https://course-net.com/wp-content/uploads/2023/09/BANNER-LIPUTAN-MEDIA-COLOR-e1695018178610.webp 1000w, https://course-net.com/wp-content/uploads/2023/09/BANNER-LIPUTAN-MEDIA-COLOR-e1695018178610-300x80.webp 300w, https://course-net.com/wp-content/uploads/2023/09/BANNER-LIPUTAN-MEDIA-COLOR-e1695018178610-768x204.webp 768w" sizes="(max-width: 1000px) 100vw, 1000px" title="Home Course-Net | Course-Net"> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-68abca9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="68abca9" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d1ba3d" data-id="2d1ba3d" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-994cbfb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="994cbfb" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-b970f61" data-id="b970f61" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-ddb127f elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="ddb127f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-116ba4e elementor-widget elementor-widget-heading" data-id="116ba4e" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-xl">Upgrade skill Anda sesuai dengan passion</h3> </div>
+</div>
+<div class="elementor-element elementor-element-88b8768 elementor-widget elementor-widget-heading" data-id="88b8768" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">Pilihan paket Coaching di Course-Net</h3> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-d463429 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d463429" data-element_type="section">
+<div class="elementor-container elementor-column-gap-extended">
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e2915a1" data-id="e2915a1" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-6e7322b elementor-widget elementor-widget-image" data-id="6e7322b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="https://course-net.com/course/kursus-jaringan-komputer/">
+<img decoding="async" loading="lazy" width="622" height="488" src="https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2aa_11zon.webp" class="attachment-full size-full wp-image-31921" alt="kursus ccna" srcset="https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2aa_11zon.webp 622w, https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2aa_11zon-300x235.webp 300w" sizes="(max-width: 622px) 100vw, 622px" title="Home Course-Net | Course-Net"> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-2117815 elementor-widget elementor-widget-text-editor" data-id="2117815" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p><strong>Kursus Jaringan Komputer</strong> (Networking) di Course-Net membimbing Anda dengan kurikulum berstandard Internasional dan Praktisi langsung sebagai instrukturnya. Dan Sertifikat yang diakui banyak Perusahaan</p> </div>
+</div>
+<div class="elementor-element elementor-element-1d267ea elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="1d267ea" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;shake&quot;,&quot;_animation_delay&quot;:1000}" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://course-net.com/course/kursus-jaringan-komputer/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon elementor-align-icon-right">
+<i aria-hidden="true" class="fas fa-angle-right"></i> </span>
+<span class="elementor-button-text">Lihat Program</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8a6a536" data-id="8a6a536" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-28ab377 elementor-widget elementor-widget-image" data-id="28ab377" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="https://course-net.com/course/kursus-cyber-security/">
+<img decoding="async" loading="lazy" width="622" height="488" src="https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2b_11zon.webp" class="attachment-full size-full wp-image-31924" alt="kursus cyber security" srcset="https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2b_11zon.webp 622w, https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2b_11zon-300x235.webp 300w" sizes="(max-width: 622px) 100vw, 622px" title="Home Course-Net | Course-Net"> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-8f756e5 elementor-widget elementor-widget-text-editor" data-id="8f756e5" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p><strong>Kursus Cyber Security</strong> terbaik kami akan menjadikan Anda seorang cyber security spesialist yang andal, baik dari sisi attack maupun defence. Tim Coach kami berpengalaman dalam bidang keamanan hingga IT Forensic.</p> </div>
+</div>
+<div class="elementor-element elementor-element-316a972 elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="316a972" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;shake&quot;,&quot;_animation_delay&quot;:1000}" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://course-net.com/course/kursus-cyber-security/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon elementor-align-icon-right">
+<i aria-hidden="true" class="fas fa-angle-right"></i> </span>
+<span class="elementor-button-text">Lihat Program</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-34d46f1" data-id="34d46f1" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-85e0590 elementor-widget elementor-widget-image" data-id="85e0590" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="https://course-net.com/course/kursus-website/">
+<img decoding="async" loading="lazy" width="622" height="488" src="https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2c_11zon.webp" class="attachment-full size-full wp-image-31920" alt="kursus web design" srcset="https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2c_11zon.webp 622w, https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2c_11zon-300x235.webp 300w" sizes="(max-width: 622px) 100vw, 622px" title="Home Course-Net | Course-Net"> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-ffb5e49 elementor-widget elementor-widget-text-editor" data-id="ffb5e49" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Course-Net hadirkan <strong>Kursus Website</strong> yang memberikan pembelajaran bagi Anda yang ingin merancang web dari nol. Ilmu yang Anda akan dapatkan setara dengan para web developer andal Indonesia.</p> </div>
+</div>
+<div class="elementor-element elementor-element-891777e elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="891777e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;shake&quot;,&quot;_animation_delay&quot;:1000}" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://course-net.com/course/kursus-website/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon elementor-align-icon-right">
+<i aria-hidden="true" class="fas fa-angle-right"></i> </span>
+<span class="elementor-button-text">Lihat program</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-b0dd398 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b0dd398" data-element_type="section">
+<div class="elementor-container elementor-column-gap-extended">
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e912fba" data-id="e912fba" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-c742353 elementor-widget elementor-widget-image" data-id="c742353" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="https://course-net.com/course/kursus-mobile-application/">
+<img decoding="async" loading="lazy" width="622" height="488" src="https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2d_11zon.webp" class="attachment-full size-full wp-image-31922" alt="kursus mobile application" srcset="https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2d_11zon.webp 622w, https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2d_11zon-300x235.webp 300w" sizes="(max-width: 622px) 100vw, 622px" title="Home Course-Net | Course-Net"> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-7a468ca elementor-widget elementor-widget-text-editor" data-id="7a468ca" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Perancangan aplikasi mobile saat ini menjadi perhatian para business startup. Kami juga memberikan <strong>kursus pembuatan aplikasi mobile</strong> baik android, iOS dan Flutter hingga Anda dapat merancang aplikasi sesuai keinginan.</p> </div>
+</div>
+<div class="elementor-element elementor-element-b9a5fa0 elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="b9a5fa0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;shake&quot;,&quot;_animation_delay&quot;:1000}" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://course-net.com/course/kursus-mobile-application/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon elementor-align-icon-right">
+<i aria-hidden="true" class="fas fa-angle-right"></i> </span>
+<span class="elementor-button-text">Lihat Program</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1b6dbfb" data-id="1b6dbfb" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-82d0e04 elementor-widget elementor-widget-image" data-id="82d0e04" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="https://course-net.com/course/kursus-digital-marketing/">
+<img decoding="async" loading="lazy" width="622" height="488" src="https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2e_11zon.webp" class="attachment-full size-full wp-image-31925" alt="kursus digital marketing" srcset="https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2e_11zon.webp 622w, https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2e_11zon-300x235.webp 300w" sizes="(max-width: 622px) 100vw, 622px" title="Home Course-Net | Course-Net"> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-d281109 elementor-widget elementor-widget-text-editor" data-id="d281109" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p><strong>Kursus Digital Marketing</strong> di Course-Net hadir untuk Anda dalam menghadapi Industri 4.0 . Dengan memahami pemasaran berbasis digital, Anda bisa mendapatkan traffik dan penjualan yang banyak dalam hitungan minggu. </p> </div>
+</div>
+<div class="elementor-element elementor-element-fd663f5 elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="fd663f5" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;shake&quot;,&quot;_animation_delay&quot;:1000}" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://course-net.com/course/kursus-digital-marketing/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon elementor-align-icon-right">
+<i aria-hidden="true" class="fas fa-angle-right"></i> </span>
+<span class="elementor-button-text">Lihat Program</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c4e19bd" data-id="c4e19bd" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-482490e elementor-widget elementor-widget-image" data-id="482490e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="https://course-net.com/course/kursus-data-science/">
+<img decoding="async" loading="lazy" width="622" height="488" src="https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2f_11zon.webp" class="attachment-full size-full wp-image-31923" alt="data science" srcset="https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2f_11zon.webp 622w, https://course-net.com/wp-content/uploads/2023/07/thubnail-program-2f_11zon-300x235.webp 300w" sizes="(max-width: 622px) 100vw, 622px" title="Home Course-Net | Course-Net"> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-391e856 elementor-widget elementor-widget-text-editor" data-id="391e856" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p><strong>Kursus Data Science</strong> Terbaik kepada Anda yang ingin mempelajari Big Data atau memperkuat ilmu analisis ketingkat lebih lanjut. Jadilah Data Scientist andal bersama Course-Net. Anda juga akan mendapatkan sertifikasi internasional.</p> </div>
+</div>
+<div class="elementor-element elementor-element-87855be elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="87855be" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;shake&quot;,&quot;_animation_delay&quot;:1000}" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://course-net.com/course/kursus-data-science/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon elementor-align-icon-right">
+<i aria-hidden="true" class="fas fa-angle-right"></i> </span>
+<span class="elementor-button-text">Lihat Program</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-b90185d elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b90185d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;}">
+<div class="elementor-container elementor-column-gap-no">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5fe2134" data-id="5fe2134" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-db23ba7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="db23ba7" data-element_type="widget" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-bcf0987 elementor-widget elementor-widget-heading" data-id="bcf0987" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-xl">Mau tau kapan schedule Coaching dan promo apa yang sedang berjalan?</h3> </div>
+</div>
+<div class="elementor-element elementor-element-e19e1d0 elementor-widget elementor-widget-heading" data-id="e19e1d0" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<p class="elementor-heading-title elementor-size-default">Cek jadwal coaching kami</p> </div>
+</div>
+<div class="elementor-element elementor-element-e66b2b7 elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="e66b2b7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;shake&quot;,&quot;_animation_delay&quot;:1000}" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://course-net.com/schedule/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon elementor-align-icon-right">
+<i aria-hidden="true" class="fas fa-angle-right"></i> </span>
+<span class="elementor-button-text">Check Schedule</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-f279d68 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f279d68" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-no">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7b8b1c8" data-id="7b8b1c8" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-83753e1 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="83753e1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-f547941 elementor-widget elementor-widget-heading" data-id="f547941" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-xl">Our Partners</h4> </div>
+</div>
+<div class="elementor-element elementor-element-fa3a531 elementor-widget elementor-widget-image" data-id="fa3a531" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img decoding="async" loading="lazy" width="1000" height="260" src="https://course-net.com/wp-content/uploads/2023/09/LOGO-OURT-PARTNER-COLOR-e1695020110817.webp" class="attachment-full size-full wp-image-32859" alt="our partner" srcset="https://course-net.com/wp-content/uploads/2023/09/LOGO-OURT-PARTNER-COLOR-e1695020110817.webp 1000w, https://course-net.com/wp-content/uploads/2023/09/LOGO-OURT-PARTNER-COLOR-e1695020110817-300x78.webp 300w, https://course-net.com/wp-content/uploads/2023/09/LOGO-OURT-PARTNER-COLOR-e1695020110817-768x200.webp 768w" sizes="(max-width: 1000px) 100vw, 1000px" title="Home Course-Net | Course-Net"> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-e44ef8e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e44ef8e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b105867" data-id="b105867" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-f711f94 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f711f94" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6165964" data-id="6165964" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-6e677bf elementor-headline--style-highlight elementor-widget elementor-widget-animated-headline" data-id="6e677bf" data-element_type="widget" data-settings="{&quot;marker&quot;:&quot;double_underline&quot;,&quot;highlighted_text&quot;:&quot;Ratusan&quot;,&quot;headline_style&quot;:&quot;highlight&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;highlight_animation_duration&quot;:1200,&quot;highlight_iteration_delay&quot;:8000}" data-widget_type="animated-headline.default">
+<div class="elementor-widget-container">
+<link rel="stylesheet" href="https://course-net.com/wp-content/plugins/elementor-pro/assets/css/widget-animated-headline.min.css"> <div class="elementor-headline">
+<span class="elementor-headline-dynamic-wrapper elementor-headline-text-wrapper">
+<span class="elementor-headline-dynamic-text elementor-headline-text-active">Ratusan</span>
+</span>
+<span class="elementor-headline-plain-text elementor-headline-text-wrapper">Perusahaan Besar telah mempercayakan Course-Net</span>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-ede199c elementor-widget elementor-widget-heading" data-id="ede199c" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<p class="elementor-heading-title elementor-size-default">Terbukti, kualitas pelatihan kami, memberikan dampak positif untuk tim mereka. </p> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="elementor-element elementor-element-5cef0fb elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="5cef0fb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://course-net.com/our-alumni/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon elementor-align-icon-right">
+<i aria-hidden="true" class="fas fa-angle-right"></i> </span>
+<span class="elementor-button-text">Lebih Banyak</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-87ed4c2 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="87ed4c2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;}">
+<div class="elementor-container elementor-column-gap-no">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-460f7e2" data-id="460f7e2" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-7afe7f7 elementor-widget-divider--view-line elementor-invisible elementor-widget elementor-widget-divider" data-id="7afe7f7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-1c2a8a4 elementor-widget elementor-widget-heading" data-id="1c2a8a4" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-xl"><a href="https://course-net.com/clients/">Lulusan kami telah bekerja di:</a></h3> </div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-c686f94 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c686f94" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9ac9b28" data-id="9ac9b28" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-471b703 elementor-position-top elementor-widget elementor-widget-image-box" data-id="471b703" data-element_type="widget" data-widget_type="image-box.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.17.0 - 01-11-2023 */
+.elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:right;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:left;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style><div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" loading="lazy" width="1200" height="800" data-cfsrc="https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-01.jpg" class="attachment-full size-full wp-image-30615" alt="TESTIMONI 01 | Course-Net November 7, 2023" srcset="https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-01.jpg 1200w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-01-300x200.jpg 300w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-01-1024x683.jpg 1024w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-01-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" title="Home Course-Net | Course-Net" style="display:none;visibility:hidden;"><noscript><img decoding="async" loading="lazy" width="1200" height="800" src="https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-01.jpg" class="attachment-full size-full wp-image-30615" alt="TESTIMONI 01 | Course-Net November 7, 2023" srcset="https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-01.jpg 1200w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-01-300x200.jpg 300w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-01-1024x683.jpg 1024w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-01-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" title="Home Course-Net | Course-Net"></noscript></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Jeckshen Oemar</h3><p class="elementor-image-box-description">Network Specialist di PT. Summarecon Agung
+</p></div></div> </div>
+</div>
+<div class="elementor-element elementor-element-77361bb elementor-widget elementor-widget-text-editor" data-id="77361bb" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Coach-nya berpengalaman, profesional, sabar, ramah, dan supportif.</p> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9ee700e" data-id="9ee700e" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-0360826 elementor-position-top elementor-widget elementor-widget-image-box" data-id="0360826" data-element_type="widget" data-widget_type="image-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" loading="lazy" width="1200" height="800" data-cfsrc="https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-02.jpg" class="attachment-full size-full wp-image-30616" alt="TESTIMONI 02 | Course-Net November 7, 2023" srcset="https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-02.jpg 1200w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-02-300x200.jpg 300w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-02-1024x683.jpg 1024w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-02-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" title="Home Course-Net | Course-Net" style="display:none;visibility:hidden;"><noscript><img decoding="async" loading="lazy" width="1200" height="800" src="https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-02.jpg" class="attachment-full size-full wp-image-30616" alt="TESTIMONI 02 | Course-Net November 7, 2023" srcset="https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-02.jpg 1200w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-02-300x200.jpg 300w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-02-1024x683.jpg 1024w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-02-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" title="Home Course-Net | Course-Net"></noscript></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Hajid Naufal</h3><p class="elementor-image-box-description">Auditor pratama Support and System Development di Telkomsel
+</p></div></div> </div>
+</div>
+<div class="elementor-element elementor-element-b794905 elementor-widget elementor-widget-text-editor" data-id="b794905" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p><br/>Materi yang diajarkan up to date dan bisa dipraktekan</p> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0c952d7" data-id="0c952d7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-5d3295c elementor-position-top elementor-widget elementor-widget-image-box" data-id="5d3295c" data-element_type="widget" data-widget_type="image-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" loading="lazy" width="1200" height="800" data-cfsrc="https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-03.jpg" class="attachment-full size-full wp-image-30617" alt="TESTIMONI 03 | Course-Net November 7, 2023" srcset="https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-03.jpg 1200w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-03-300x200.jpg 300w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-03-1024x683.jpg 1024w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-03-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" title="Home Course-Net | Course-Net" style="display:none;visibility:hidden;"><noscript><img decoding="async" loading="lazy" width="1200" height="800" src="https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-03.jpg" class="attachment-full size-full wp-image-30617" alt="TESTIMONI 03 | Course-Net November 7, 2023" srcset="https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-03.jpg 1200w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-03-300x200.jpg 300w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-03-1024x683.jpg 1024w, https://course-net.com/wp-content/uploads/2023/02/TESTIMONI-03-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" title="Home Course-Net | Course-Net"></noscript></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Syahrian Putra Bakti</h3><p class="elementor-image-box-description">IT Support di CNN Indonesia
+</p></div></div> </div>
+</div>
+<div class="elementor-element elementor-element-0bb00cb elementor-widget elementor-widget-text-editor" data-id="0bb00cb" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Coach mengajarkan dari akar, detail dan apapun yang diajarkan bisa diterima dengan mudah.</p> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="elementor-element elementor-element-2c0b94f elementor-widget elementor-widget-image-carousel" data-id="2c0b94f" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.17.0 - 01-11-2023 */
+.elementor-widget-image-carousel .swiper,.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure,.elementor-widget-image-carousel .swiper .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-container-initialized):not(.swiper-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}</style> <div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 11"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://course-net.com/wp-content/uploads/2023/09/LOGO-2-01-e1695019070471.webp" alt="client course-net" title="Home Course-Net | Course-Net"></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 11"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://course-net.com/wp-content/uploads/2023/09/LOGO-2-02-e1695019109593.webp" alt="client course-net" title="Home Course-Net | Course-Net"></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 11"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://course-net.com/wp-content/uploads/2023/09/LOGO-2-03-e1695019138865.webp" alt="client course-net" title="Home Course-Net | Course-Net"></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 11"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://course-net.com/wp-content/uploads/2023/09/LOGO-2-04-e1695019170389.webp" alt="client course-net" title="Home Course-Net | Course-Net"></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="5 of 11"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://course-net.com/wp-content/uploads/2023/09/LOGO-2-05-e1695019473815.webp" alt="client course-net" title="Home Course-Net | Course-Net"></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="6 of 11"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://course-net.com/wp-content/uploads/2023/09/LOGO-2-06-e1695019509759.webp" alt="client course-net" title="Home Course-Net | Course-Net"></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="7 of 11"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://course-net.com/wp-content/uploads/2023/09/LOGO-2-07-e1695019538434.webp" alt="client course-net" title="Home Course-Net | Course-Net"></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="8 of 11"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://course-net.com/wp-content/uploads/2023/09/LOGO-2-08-e1695019568164.webp" alt="client course-net" title="Home Course-Net | Course-Net"></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="9 of 11"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://course-net.com/wp-content/uploads/2023/09/LOGO-2-09-e1695019728499.webp" alt="client course-net" title="Home Course-Net | Course-Net"></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="10 of 11"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://course-net.com/wp-content/uploads/2023/09/LOGO-2-10-e1695019762200.webp" alt="client course-net" title="Home Course-Net | Course-Net"></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="11 of 11"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://course-net.com/wp-content/uploads/2023/09/LOGO-2-11-e1695019792126.webp" alt="client course-net" title="Home Course-Net | Course-Net"></figure></div> </div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-1858ecd elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="1858ecd" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://course-net.com/our-alumni/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon elementor-align-icon-right">
+<i aria-hidden="true" class="fas fa-angle-right"></i> </span>
+<span class="elementor-button-text">Kenalan dengan alumni kami</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-4f45181 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4f45181" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;}">
+<div class="elementor-container elementor-column-gap-no">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a4261b0" data-id="a4261b0" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-3a7625a elementor-widget-divider--view-line elementor-invisible elementor-widget elementor-widget-divider" data-id="3a7625a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-614c032 elementor-widget elementor-widget-heading" data-id="614c032" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-xl">Our Blog</h3> </div>
+</div>
+<div class="elementor-element elementor-element-5c7f93a elementor-widget elementor-widget-text-editor" data-id="5c7f93a" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Update Berita &amp; Tips Menarik Seputar Dunia IT Dari Course-Net</p> </div>
+</div>
+<div class="elementor-element elementor-element-e1ff53b elementor-align-center elementor-widget elementor-widget-button" data-id="e1ff53b" data-element_type="widget" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-lg" href="https://course-net.com/blog/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-text">Load More</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<div data-elementor-type="footer" data-elementor-id="1001" class="elementor elementor-1001 elementor-location-footer" data-elementor-post-type="elementor_library">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-2a28a87a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2a28a87a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-extended">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-553457d0" data-id="553457d0" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-2d94c1fb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2d94c1fb" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-20693e13" data-id="20693e13" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-2f796787 elementor-widget elementor-widget-image" data-id="2f796787" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img width="768" height="224" data-cfsrc="https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-768x224.png" class="attachment-medium_large size-medium_large wp-image-30632" alt="course-net" loading="lazy" srcset="https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-768x224.png 768w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-300x88.png 300w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-1024x299.png 1024w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-1536x449.png 1536w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-2048x599.png 2048w" sizes="(max-width: 768px) 100vw, 768px" style="display:none;visibility:hidden;" /><noscript><img width="768" height="224" src="https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-768x224.png" class="attachment-medium_large size-medium_large wp-image-30632" alt="course-net" loading="lazy" srcset="https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-768x224.png 768w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-300x88.png 300w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-1024x299.png 1024w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-1536x449.png 1536w, https://course-net.com/wp-content/uploads/2020/07/Course-Net-Logo-Final-Ai-CS6...-02-e1677126112866-2048x599.png 2048w" sizes="(max-width: 768px) 100vw, 768px" /></noscript> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-3335465c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3335465c" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-78f9f68d" data-id="78f9f68d" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-329ec8ec elementor-widget elementor-widget-heading" data-id="329ec8ec" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default">Gading Serpong</h4> </div>
+</div>
+<div class="elementor-element elementor-element-72929a20 elementor-widget elementor-widget-text-editor" data-id="72929a20" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p style="text-align: left;">(Office and Classroom)<br/>Ruko Bolsena Blok A/7<br/>Telp (021) 29670068</p><p style="text-align: left;"><a href="https://g.page/course-net-gading-serpong"><strong>Get Direction</strong></a></p> </div>
+</div>
+<div class="elementor-element elementor-element-65bdd9a5 elementor-widget elementor-widget-heading" data-id="65bdd9a5" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default">Kebon Jeruk</h4> </div>
+</div>
+<div class="elementor-element elementor-element-13029f23 elementor-widget elementor-widget-text-editor" data-id="13029f23" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p style="text-align: left;">(Classroom)<br/>Ruko Business Park<br/>Kebon Jeruk Blok E1/9 Jakarta Barat<br/>Telp +62 812-2229-012<br/><a href="https://goo.gl/maps/pbgMCGvMvnMWvpc18"><strong>Get Direction</strong></a></p> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-981422b" data-id="981422b" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-218a7f05 elementor-widget elementor-widget-heading" data-id="218a7f05" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default">Contact Us</h4> </div>
+</div>
+<div class="elementor-element elementor-element-30c5427 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="30c5427" data-element_type="widget" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<link rel="stylesheet" href="https://course-net.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css"> <ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<a href="https://coursenet.orderonline.id/kursuss/?utm_source=Web">
+<span class="elementor-icon-list-icon">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800" width="1200" viewBox="-93.2412 -156.2325 808.0904 937.395"><defs><linearGradient x1=".5" y1="0" x2=".5" y2="1" id="a"><stop stop-color="#20B038" offset="0%"></stop><stop stop-color="#60D66A" offset="100%"></stop></linearGradient><linearGradient x1=".5" y1="0" x2=".5" y2="1" id="b"><stop stop-color="#F9F9F9" offset="0%"></stop><stop stop-color="#FFF" offset="100%"></stop></linearGradient><linearGradient xlink:href="#a" id="f" x1="270.265" y1="1.184" x2="270.265" y2="541.56" gradientTransform="scale(.99775 1.00225)" gradientUnits="userSpaceOnUse"></linearGradient><linearGradient xlink:href="#b" id="g" x1="279.952" y1=".811" x2="279.952" y2="560.571" gradientTransform="scale(.99777 1.00224)" gradientUnits="userSpaceOnUse"></linearGradient><filter x="-.056" y="-.062" width="1.112" height="1.11" filterUnits="objectBoundingBox" id="c"><feGaussianBlur stdDeviation="2"></feGaussianBlur></filter><filter x="-.082" y="-.088" width="1.164" height="1.162" filterUnits="objectBoundingBox" id="d"><feGaussianBlur stdDeviation="12.5"></feGaussianBlur></filter><path d="M576.337 707.516c-.018-49.17 12.795-97.167 37.15-139.475L574 423.48l147.548 38.792c40.652-22.23 86.423-33.944 133.002-33.962h.12c153.395 0 278.265 125.166 278.33 278.98.025 74.548-28.9 144.642-81.446 197.373C999 957.393 929.12 986.447 854.67 986.48c-153.42 0-278.272-125.146-278.333-278.964z" id="e"></path></defs><g fill="none" fill-rule="evenodd"><g transform="matrix(1 0 0 -1 -542.696 1013.504)" fill="#000" fill-rule="nonzero" filter="url(#c)"><use filter="url(#d)" xlink:href="#e" width="100%" height="100%"></use><use fill-opacity=".2" xlink:href="#e" width="100%" height="100%"></use></g><path transform="matrix(1 0 0 -1 41.304 577.504)" fill-rule="nonzero" fill="url(#f)" d="M2.325 274.421c-.014-47.29 12.342-93.466 35.839-134.166L.077 1.187l142.314 37.316C181.6 17.133 225.745 5.856 270.673 5.84h.12c147.95 0 268.386 120.396 268.447 268.372.03 71.707-27.87 139.132-78.559 189.858-50.68 50.726-118.084 78.676-189.898 78.708-147.968 0-268.398-120.386-268.458-268.358"></path><path transform="matrix(1 0 0 -1 31.637 586.837)" fill-rule="nonzero" fill="url(#g)" d="M2.407 283.847c-.018-48.996 12.784-96.824 37.117-138.983L.072.814l147.419 38.654c40.616-22.15 86.346-33.824 132.885-33.841h.12c153.26 0 278.02 124.724 278.085 277.994.026 74.286-28.874 144.132-81.374 196.678-52.507 52.544-122.326 81.494-196.711 81.528-153.285 0-278.028-124.704-278.09-277.98zm87.789-131.724l-5.503 8.74C61.555 197.653 49.34 240.17 49.36 283.828c.049 127.399 103.73 231.044 231.224 231.044 61.74-.025 119.765-24.09 163.409-67.763 43.639-43.67 67.653-101.726 67.635-163.469-.054-127.403-103.739-231.063-231.131-231.063h-.09c-41.482.022-82.162 11.159-117.642 32.214l-8.444 5.004L66.84 66.86z"></path><path d="M242.63 186.78c-5.205-11.57-10.684-11.803-15.636-12.006-4.05-.173-8.687-.162-13.316-.162-4.632 0-12.161 1.74-18.527 8.693-6.37 6.953-24.322 23.761-24.322 57.947 0 34.19 24.901 67.222 28.372 71.862 3.474 4.634 48.07 77.028 118.694 104.88 58.696 23.146 70.64 18.542 83.38 17.384 12.74-1.158 41.11-16.805 46.9-33.03 5.791-16.223 5.791-30.128 4.054-33.035-1.738-2.896-6.37-4.633-13.319-8.108-6.95-3.475-41.11-20.287-47.48-22.603-6.37-2.316-11.003-3.474-15.635 3.482-4.633 6.95-17.94 22.596-21.996 27.23-4.053 4.643-8.106 5.222-15.056 1.747-6.949-3.485-29.328-10.815-55.876-34.485-20.656-18.416-34.6-41.16-38.656-48.116-4.053-6.95-.433-10.714 3.052-14.178 3.12-3.113 6.95-8.11 10.424-12.168 3.467-4.057 4.626-6.953 6.942-11.586 2.316-4.64 1.158-8.698-.579-12.172-1.737-3.475-15.241-37.838-21.42-51.576" fill="#FFF"></path></g></svg> </span>
+<span class="elementor-icon-list-text">+62 821 1492 3046  (Suci)</span>
+</a>
+</li>
+<li class="elementor-icon-list-item">
+<a href="https://coursenet.orderonline.id/kursuss/?utm_source=Web">
+<span class="elementor-icon-list-icon">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800" width="1200" viewBox="-93.2412 -156.2325 808.0904 937.395"><defs><linearGradient x1=".5" y1="0" x2=".5" y2="1" id="a"><stop stop-color="#20B038" offset="0%"></stop><stop stop-color="#60D66A" offset="100%"></stop></linearGradient><linearGradient x1=".5" y1="0" x2=".5" y2="1" id="b"><stop stop-color="#F9F9F9" offset="0%"></stop><stop stop-color="#FFF" offset="100%"></stop></linearGradient><linearGradient xlink:href="#a" id="f" x1="270.265" y1="1.184" x2="270.265" y2="541.56" gradientTransform="scale(.99775 1.00225)" gradientUnits="userSpaceOnUse"></linearGradient><linearGradient xlink:href="#b" id="g" x1="279.952" y1=".811" x2="279.952" y2="560.571" gradientTransform="scale(.99777 1.00224)" gradientUnits="userSpaceOnUse"></linearGradient><filter x="-.056" y="-.062" width="1.112" height="1.11" filterUnits="objectBoundingBox" id="c"><feGaussianBlur stdDeviation="2"></feGaussianBlur></filter><filter x="-.082" y="-.088" width="1.164" height="1.162" filterUnits="objectBoundingBox" id="d"><feGaussianBlur stdDeviation="12.5"></feGaussianBlur></filter><path d="M576.337 707.516c-.018-49.17 12.795-97.167 37.15-139.475L574 423.48l147.548 38.792c40.652-22.23 86.423-33.944 133.002-33.962h.12c153.395 0 278.265 125.166 278.33 278.98.025 74.548-28.9 144.642-81.446 197.373C999 957.393 929.12 986.447 854.67 986.48c-153.42 0-278.272-125.146-278.333-278.964z" id="e"></path></defs><g fill="none" fill-rule="evenodd"><g transform="matrix(1 0 0 -1 -542.696 1013.504)" fill="#000" fill-rule="nonzero" filter="url(#c)"><use filter="url(#d)" xlink:href="#e" width="100%" height="100%"></use><use fill-opacity=".2" xlink:href="#e" width="100%" height="100%"></use></g><path transform="matrix(1 0 0 -1 41.304 577.504)" fill-rule="nonzero" fill="url(#f)" d="M2.325 274.421c-.014-47.29 12.342-93.466 35.839-134.166L.077 1.187l142.314 37.316C181.6 17.133 225.745 5.856 270.673 5.84h.12c147.95 0 268.386 120.396 268.447 268.372.03 71.707-27.87 139.132-78.559 189.858-50.68 50.726-118.084 78.676-189.898 78.708-147.968 0-268.398-120.386-268.458-268.358"></path><path transform="matrix(1 0 0 -1 31.637 586.837)" fill-rule="nonzero" fill="url(#g)" d="M2.407 283.847c-.018-48.996 12.784-96.824 37.117-138.983L.072.814l147.419 38.654c40.616-22.15 86.346-33.824 132.885-33.841h.12c153.26 0 278.02 124.724 278.085 277.994.026 74.286-28.874 144.132-81.374 196.678-52.507 52.544-122.326 81.494-196.711 81.528-153.285 0-278.028-124.704-278.09-277.98zm87.789-131.724l-5.503 8.74C61.555 197.653 49.34 240.17 49.36 283.828c.049 127.399 103.73 231.044 231.224 231.044 61.74-.025 119.765-24.09 163.409-67.763 43.639-43.67 67.653-101.726 67.635-163.469-.054-127.403-103.739-231.063-231.131-231.063h-.09c-41.482.022-82.162 11.159-117.642 32.214l-8.444 5.004L66.84 66.86z"></path><path d="M242.63 186.78c-5.205-11.57-10.684-11.803-15.636-12.006-4.05-.173-8.687-.162-13.316-.162-4.632 0-12.161 1.74-18.527 8.693-6.37 6.953-24.322 23.761-24.322 57.947 0 34.19 24.901 67.222 28.372 71.862 3.474 4.634 48.07 77.028 118.694 104.88 58.696 23.146 70.64 18.542 83.38 17.384 12.74-1.158 41.11-16.805 46.9-33.03 5.791-16.223 5.791-30.128 4.054-33.035-1.738-2.896-6.37-4.633-13.319-8.108-6.95-3.475-41.11-20.287-47.48-22.603-6.37-2.316-11.003-3.474-15.635 3.482-4.633 6.95-17.94 22.596-21.996 27.23-4.053 4.643-8.106 5.222-15.056 1.747-6.949-3.485-29.328-10.815-55.876-34.485-20.656-18.416-34.6-41.16-38.656-48.116-4.053-6.95-.433-10.714 3.052-14.178 3.12-3.113 6.95-8.11 10.424-12.168 3.467-4.057 4.626-6.953 6.942-11.586 2.316-4.64 1.158-8.698-.579-12.172-1.737-3.475-15.241-37.838-21.42-51.576" fill="#FFF"></path></g></svg> </span>
+<span class="elementor-icon-list-text">+62 878-8075-8290 (Achmad)</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-9b69260 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="9b69260" data-element_type="widget" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<i aria-hidden="true" class="far fa-envelope"></i> </span>
+<span class="elementor-icon-list-text"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="375e595158775458424544521a5952431954585a">[email&#160;protected]</a></span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-e291381 elementor-widget elementor-widget-heading" data-id="e291381" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default">Operational Hours </h4> </div>
+</div>
+<div class="elementor-element elementor-element-28d12509 elementor-widget elementor-widget-text-editor" data-id="28d12509" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p style="text-align: left;">Senin &#8211; Jumat<br/>09.00 &#8211; 17.00</p> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-4cbe757c" data-id="4cbe757c" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-3dc7c78e elementor-widget elementor-widget-heading" data-id="3dc7c78e" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default">Penyelenggara resmi ujian
+sertifikasi International</h4> </div>
+</div>
+<div class="elementor-element elementor-element-227950c0 elementor-widget elementor-widget-image" data-id="227950c0" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img width="599" height="260" data-cfsrc="https://course-net.com/wp-content/uploads/2020/04/ec-council-1.png" class="attachment-full size-full wp-image-24789" alt loading="lazy" srcset="https://course-net.com/wp-content/uploads/2020/04/ec-council-1.png 599w, https://course-net.com/wp-content/uploads/2020/04/ec-council-1-300x130.png 300w" sizes="(max-width: 599px) 100vw, 599px" style="display:none;visibility:hidden;" /><noscript><img width="599" height="260" src="https://course-net.com/wp-content/uploads/2020/04/ec-council-1.png" class="attachment-full size-full wp-image-24789" alt loading="lazy" srcset="https://course-net.com/wp-content/uploads/2020/04/ec-council-1.png 599w, https://course-net.com/wp-content/uploads/2020/04/ec-council-1-300x130.png 300w" sizes="(max-width: 599px) 100vw, 599px" /></noscript> </div>
+</div>
+<div class="elementor-element elementor-element-511ae87 elementor-widget elementor-widget-heading" data-id="511ae87" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default">Course-Net Indonesia dilindungi oleh Tim Legal Margono Surya & Partners</h4> </div>
+</div>
+<div class="elementor-element elementor-element-4b3ff3b elementor-widget elementor-widget-image" data-id="4b3ff3b" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img width="1799" height="346" data-cfsrc="https://course-net.com/wp-content/uploads/2020/04/logo-msp-1.png" class="attachment-full size-full wp-image-24790" alt loading="lazy" srcset="https://course-net.com/wp-content/uploads/2020/04/logo-msp-1.png 1799w, https://course-net.com/wp-content/uploads/2020/04/logo-msp-1-300x58.png 300w, https://course-net.com/wp-content/uploads/2020/04/logo-msp-1-1024x197.png 1024w, https://course-net.com/wp-content/uploads/2020/04/logo-msp-1-768x148.png 768w, https://course-net.com/wp-content/uploads/2020/04/logo-msp-1-1536x295.png 1536w" sizes="(max-width: 1799px) 100vw, 1799px" style="display:none;visibility:hidden;" /><noscript><img width="1799" height="346" src="https://course-net.com/wp-content/uploads/2020/04/logo-msp-1.png" class="attachment-full size-full wp-image-24790" alt loading="lazy" srcset="https://course-net.com/wp-content/uploads/2020/04/logo-msp-1.png 1799w, https://course-net.com/wp-content/uploads/2020/04/logo-msp-1-300x58.png 300w, https://course-net.com/wp-content/uploads/2020/04/logo-msp-1-1024x197.png 1024w, https://course-net.com/wp-content/uploads/2020/04/logo-msp-1-768x148.png 768w, https://course-net.com/wp-content/uploads/2020/04/logo-msp-1-1536x295.png 1536w" sizes="(max-width: 1799px) 100vw, 1799px" /></noscript> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-4cf15e4d" data-id="4cf15e4d" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-53bb1a7c elementor-widget elementor-widget-heading" data-id="53bb1a7c" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default">Follow Us</h4> </div>
+</div>
+<div class="elementor-element elementor-element-669e4126 e-grid-align-left elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="669e4126" data-element_type="widget" data-widget_type="social-icons.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.17.0 - 01-11-2023 */
+.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container{line-height:1;font-size:0}.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid{display:inline-grid}.elementor-widget-social-icons .elementor-grid{grid-column-gap:var(--grid-column-gap,5px);grid-row-gap:var(--grid-row-gap,5px);grid-template-columns:var(--grid-template-columns);justify-content:var(--justify-content,center);justify-items:var(--justify-content,center)}.elementor-icon.elementor-social-icon{font-size:var(--icon-size,25px);line-height:var(--icon-size,25px);width:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));height:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))}.elementor-social-icon{--e-social-icon-icon-color:#fff;display:inline-flex;background-color:#69727d;align-items:center;justify-content:center;text-align:center;cursor:pointer}.elementor-social-icon i{color:var(--e-social-icon-icon-color)}.elementor-social-icon svg{fill:var(--e-social-icon-icon-color)}.elementor-social-icon:last-child{margin:0}.elementor-social-icon:hover{opacity:.9;color:#fff}.elementor-social-icon-android{background-color:#a4c639}.elementor-social-icon-apple{background-color:#999}.elementor-social-icon-behance{background-color:#1769ff}.elementor-social-icon-bitbucket{background-color:#205081}.elementor-social-icon-codepen{background-color:#000}.elementor-social-icon-delicious{background-color:#39f}.elementor-social-icon-deviantart{background-color:#05cc47}.elementor-social-icon-digg{background-color:#005be2}.elementor-social-icon-dribbble{background-color:#ea4c89}.elementor-social-icon-elementor{background-color:#d30c5c}.elementor-social-icon-envelope{background-color:#ea4335}.elementor-social-icon-facebook,.elementor-social-icon-facebook-f{background-color:#3b5998}.elementor-social-icon-flickr{background-color:#0063dc}.elementor-social-icon-foursquare{background-color:#2d5be3}.elementor-social-icon-free-code-camp,.elementor-social-icon-freecodecamp{background-color:#006400}.elementor-social-icon-github{background-color:#333}.elementor-social-icon-gitlab{background-color:#e24329}.elementor-social-icon-globe{background-color:#69727d}.elementor-social-icon-google-plus,.elementor-social-icon-google-plus-g{background-color:#dd4b39}.elementor-social-icon-houzz{background-color:#7ac142}.elementor-social-icon-instagram{background-color:#262626}.elementor-social-icon-jsfiddle{background-color:#487aa2}.elementor-social-icon-link{background-color:#818a91}.elementor-social-icon-linkedin,.elementor-social-icon-linkedin-in{background-color:#0077b5}.elementor-social-icon-medium{background-color:#00ab6b}.elementor-social-icon-meetup{background-color:#ec1c40}.elementor-social-icon-mixcloud{background-color:#273a4b}.elementor-social-icon-odnoklassniki{background-color:#f4731c}.elementor-social-icon-pinterest{background-color:#bd081c}.elementor-social-icon-product-hunt{background-color:#da552f}.elementor-social-icon-reddit{background-color:#ff4500}.elementor-social-icon-rss{background-color:#f26522}.elementor-social-icon-shopping-cart{background-color:#4caf50}.elementor-social-icon-skype{background-color:#00aff0}.elementor-social-icon-slideshare{background-color:#0077b5}.elementor-social-icon-snapchat{background-color:#fffc00}.elementor-social-icon-soundcloud{background-color:#f80}.elementor-social-icon-spotify{background-color:#2ebd59}.elementor-social-icon-stack-overflow{background-color:#fe7a15}.elementor-social-icon-steam{background-color:#00adee}.elementor-social-icon-stumbleupon{background-color:#eb4924}.elementor-social-icon-telegram{background-color:#2ca5e0}.elementor-social-icon-thumb-tack{background-color:#1aa1d8}.elementor-social-icon-tripadvisor{background-color:#589442}.elementor-social-icon-tumblr{background-color:#35465c}.elementor-social-icon-twitch{background-color:#6441a5}.elementor-social-icon-twitter{background-color:#1da1f2}.elementor-social-icon-viber{background-color:#665cac}.elementor-social-icon-vimeo{background-color:#1ab7ea}.elementor-social-icon-vk{background-color:#45668e}.elementor-social-icon-weibo{background-color:#dd2430}.elementor-social-icon-weixin{background-color:#31a918}.elementor-social-icon-whatsapp{background-color:#25d366}.elementor-social-icon-wordpress{background-color:#21759b}.elementor-social-icon-xing{background-color:#026466}.elementor-social-icon-yelp{background-color:#af0606}.elementor-social-icon-youtube{background-color:#cd201f}.elementor-social-icon-500px{background-color:#0099e5}.elementor-shape-rounded .elementor-icon.elementor-social-icon{border-radius:10%}.elementor-shape-circle .elementor-icon.elementor-social-icon{border-radius:50%}</style> <div class="elementor-social-icons-wrapper elementor-grid">
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-animation-grow elementor-repeater-item-1fba67d" href="https://www.facebook.com/CourseNetIndonesia/">
+<span class="elementor-screen-only">Facebook-f</span>
+<i class="fab fa-facebook-f"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-grow elementor-repeater-item-96b5d78" href="https://www.instagram.com/course_net/?hl=id">
+<span class="elementor-screen-only">Instagram</span>
+<i class="fab fa-instagram"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-grow elementor-repeater-item-57ad147" href="https://www.youtube.com/channel/UCLuFsFx8YEIEk6tJ7ftdTGA/videos">
+<span class="elementor-screen-only">Youtube</span>
+<i class="fab fa-youtube"></i> </a>
+</span>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-99d7f55 elementor-widget elementor-widget-heading" data-id="99d7f55" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="https://course-net.com/itbox">Course-Net X ITBOX</a></h4> </div>
+</div>
+<div class="elementor-element elementor-element-55b4427 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="55b4427" data-element_type="widget" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<a href="https://course-net.com/be-our-hiring-partner/">
+<span class="elementor-icon-list-icon">
+<i aria-hidden="true" class="far fa-building"></i> </span>
+<span class="elementor-icon-list-text">Be Our Hiring Partner</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-3783c4e elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3783c4e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c1f0d63" data-id="c1f0d63" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-6112208 elementor-widget elementor-widget-text-editor" data-id="6112208" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Copyright © 2021 Course Net Indonesia. All Rights Reserved &#8211;  <a href="https://course-net.com/sitemap/"><span style="color: #fff;"><strong>Sitemap</strong></span></a></p> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<a aria-label="Scroll to the top of the page" href="#" id="scroll-top" class="scroll-top-right"><i class=" fa fa-angle-up" aria-hidden="true" role="img"></i></a>
+<div id="mobile-menu-search" class="clr">
+<form aria-label="Search this website" method="get" action="https://course-net.com/" class="mobile-searchform">
+<input aria-label="Insert search query" value class="field" id="ocean-mobile-search-1" type="search" name="s" autocomplete="off" placeholder="Search" />
+<button aria-label="Submit search" type="submit" class="searchform-submit">
+<i class=" icon-magnifier" aria-hidden="true" role="img"></i> </button>
+</form>
+</div>
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJ8TXZM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<link rel="stylesheet" id="e-animations-css" href="https://course-net.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.17.2" media="all" />
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script id="essential-blocks-blocks-localize-js-extra">
+var eb_conditional_localize = {"editor_type":""};
+var EssentialBlocksLocalize = {"eb_plugins_url":"https:\/\/course-net.com\/wp-content\/plugins\/essential-blocks\/","eb_wp_version":"6.3","eb_version":"4.3.6","eb_admin_url":"https:\/\/course-net.com\/wp-admin\/","rest_rootURL":"https:\/\/course-net.com\/wp-json\/","ajax_url":"https:\/\/course-net.com\/wp-admin\/admin-ajax.php","nft_nonce":"f89ed7970e","post_grid_pagination_nonce":"7773eb5494","placeholder_image":"https:\/\/course-net.com\/wp-content\/plugins\/essential-blocks\/assets\/images\/placeholder.png","is_pro_active":"false","upgrade_pro_url":"https:\/\/essential-blocks.com\/upgrade"};
+</script>
+<script src="https://course-net.com/wp-content/plugins/essential-blocks/assets/js/eb-blocks-localize.js?ver=4.3.6" id="essential-blocks-blocks-localize-js"></script>
+<script src="https://course-net.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"></script>
+<script id="oceanwp-main-js-extra">
+var oceanwpLocalize = {"nonce":"c2e51da735","isRTL":"","menuSearchStyle":"drop_down","mobileMenuSearchStyle":"disabled","sidrSource":"#site-navigation, #mobile-menu-search","sidrDisplace":"","sidrSide":"left","sidrDropdownTarget":"link","verticalHeaderTarget":"link","customScrollOffset":"0","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select","ajax_url":"https:\/\/course-net.com\/wp-admin\/admin-ajax.php","oe_mc_wpnonce":"b3c3fad14a"};
+</script>
+<script src="https://course-net.com/wp-content/themes/oceanwp/assets/js/theme.min.js?ver=3.4.7" id="oceanwp-main-js"></script>
+<script src="https://course-net.com/wp-content/themes/oceanwp/assets/js/vendors/sidr.js?ver=3.4.7" id="ow-sidr-js"></script>
+<script src="https://course-net.com/wp-content/themes/oceanwp/assets/js/sidebar-mobile-menu.min.js?ver=3.4.7" id="oceanwp-sidebar-mobile-menu-js"></script>
+<script src="https://course-net.com/wp-content/themes/oceanwp/assets/js/drop-down-search.min.js?ver=3.4.7" id="oceanwp-drop-down-search-js"></script>
+<script src="https://course-net.com/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js?ver=3.4.7" id="ow-magnific-popup-js"></script>
+<script src="https://course-net.com/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js?ver=3.4.7" id="oceanwp-lightbox-js"></script>
+<script src="https://course-net.com/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js?ver=3.4.7" id="ow-flickity-js"></script>
+<script src="https://course-net.com/wp-content/themes/oceanwp/assets/js/ow-slider.min.js?ver=3.4.7" id="oceanwp-slider-js"></script>
+<script src="https://course-net.com/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js?ver=3.4.7" id="oceanwp-scroll-effect-js"></script>
+<script src="https://course-net.com/wp-content/themes/oceanwp/assets/js/scroll-top.min.js?ver=3.4.7" id="oceanwp-scroll-top-js"></script>
+<script src="https://course-net.com/wp-content/themes/oceanwp/assets/js/select.min.js?ver=3.4.7" id="oceanwp-select-js"></script>
+<script src="https://course-net.com/wp-content/themes/oceanwp/assets/js/ow-infinite-scroll.min.js?ver=3.4.7" id="oceanwp-infinite-scroll-js"></script>
+<script id="learndash-front-js-extra">
+var ldVars = {"postID":"33669","videoReqMsg":"You must watch the video before accessing this content","ajaxurl":"https:\/\/course-net.com\/wp-admin\/admin-ajax.php"};
+</script>
+<script src="//course-net.com/wp-content/plugins/sfwd-lms/themes/ld30/assets/js/learndash.js?ver=4.3.1.3" id="learndash-front-js"></script>
+<script id="eael-general-js-extra">
+var localize = {"ajaxurl":"https:\/\/course-net.com\/wp-admin\/admin-ajax.php","nonce":"20b93d563f","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"https:\/\/course-net.com\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Layar lebar","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+</script>
+<script src="https://course-net.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.8.13" id="eael-general-js"></script>
+<script src="https://course-net.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1" id="smartmenus-js"></script>
+<script src="https://course-net.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1" id="jquery-numerator-js"></script>
+<script src="https://course-net.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.17.0" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://course-net.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.17.2" id="elementor-webpack-runtime-js"></script>
+<script src="https://course-net.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.17.2" id="elementor-frontend-modules-js"></script>
+<script src="https://course-net.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script src="https://course-net.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11" id="regenerator-runtime-js"></script>
+<script src="https://course-net.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="https://course-net.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
+<script src="https://course-net.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/course-net.com\/wp-admin\/admin-ajax.php","nonce":"2b1c69c89f","urls":{"assets":"https:\/\/course-net.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/course-net.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},
+"facebook_sdk":{"lang":"id_ID","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/course-net.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src="https://course-net.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.17.0" id="elementor-pro-frontend-js"></script>
+<script src="https://course-net.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script src="https://course-net.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Bagikan di Facebook","shareOnTwitter":"Bagikan di Twitter","pinIt":"Buat Pin","download":"Unduh","downloadImage":"Unduh gambar","fullscreen":"Layar Penuh","zoom":"Perbesar","share":"Bagikan","playVideo":"Putar Video","previous":"Sebelumnya","next":"Selanjutnya","close":"Tutup","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Slide sebelumnya","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Layar lebar","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},
+"version":"3.17.2","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"landing-pages":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/course-net.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":33669,"title":"Course-Net%20%7C%20Accelerate%20Your%20IT%20Career","excerpt":"","featuredImage":false}};
+</script>
+<script src="https://course-net.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.17.2" id="elementor-frontend-js"></script>
+<script src="https://course-net.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.17.0" id="pro-elements-handlers-js"></script>
+<script src="https://course-net.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.17.0" id="e-sticky-js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"82257ee8bb8b9fd4","version":"2023.10.0","token":"8303afe148bf4f64aedbc1fb2b42027c"}' crossorigin="anonymous"></script>
+</body>
 </html>
